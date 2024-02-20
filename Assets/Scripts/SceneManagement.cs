@@ -10,6 +10,11 @@ public class SceneManagement : MonoBehaviour
     [SerializeField] private float fadeDuration = 1f;
 
     private Scene currentScene;
+    
+    public void ClearPlayerPrefs()
+    {
+        PlayerPrefs.DeleteAll();
+    }
 
     public void GoToScene()
     {

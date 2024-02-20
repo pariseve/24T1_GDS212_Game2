@@ -5,15 +5,18 @@ using UnityEngine;
 public class LetterPopUp : MonoBehaviour
 {
     public GameObject letterPopup;
+    public GameObject triggerManager;
     private bool letterShown;
 
     private void Start()
     {
-        letterShown = PlayerPrefs.GetInt("TutorialShown", 0) == 1;
+        
+        letterShown = PlayerPrefs.GetInt("LetterShown", 0) == 1;
 
         if (!letterShown)
         {
-            ShowTutorialPopup();
+            ShowLetterPopup();
+            triggerManager.SetActive(false);
             PauseGame();
         }
     }
@@ -22,25 +25,26 @@ public class LetterPopUp : MonoBehaviour
     {
         if (letterPopup.activeSelf && Input.GetMouseButtonDown(0))
         {
-            CloseTutorialPopup();
+            CloseLetterPopup();
         }
     }
 
     public void OnExitButtonClicked()
     {
-        CloseTutorialPopup();
+        CloseLetterPopup();
     }
 
-    public void ShowTutorialPopup()
+    public void ShowLetterPopup()
     {
         letterPopup.SetActive(true);
     }
 
-    public void CloseTutorialPopup()
+    public void CloseLetterPopup()
     {
         letterPopup.SetActive(false);
         letterShown = true;
-        PlayerPrefs.SetInt("TutorialShown", 1);
+        triggerManager.SetActive(true);
+        PlayerPrefs.SetInt("LetterShown", 1);
         UnpauseGame();
     }
 

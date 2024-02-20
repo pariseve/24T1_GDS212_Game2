@@ -18,5 +18,9 @@ public class InputHandler : MonoBehaviour
         if (!rayHit.collider) return;
 
         Debug.Log(rayHit.collider.gameObject.name);
+        if (rayHit.collider.GetComponent<SceneManagement>())
+        {
+            rayHit.collider.GetComponent<SceneManagement>().GoToScene();
+        }
     }
 }

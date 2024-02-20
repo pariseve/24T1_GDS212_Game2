@@ -3,7 +3,9 @@ guid: c0e9fa038ae95fa4ea8337f3cb0ac972
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - menuObj: {instanceID: 0}
+  - fadePanel: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
