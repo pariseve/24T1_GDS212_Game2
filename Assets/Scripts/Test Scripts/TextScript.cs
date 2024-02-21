@@ -10,6 +10,8 @@ public class TextScript : MonoBehaviour
     {
         dialogue = DialogueSystem.instance;
     }
+
+    [TextArea(3, 10)]
     public string[] s = new string[]
     {
     };
@@ -39,6 +41,6 @@ public class TextScript : MonoBehaviour
         string speech = parts[0];
         string speaker = (parts.Length >= 2) ? parts[1] : "";
 
-        dialogue.Speak(speech,true, speaker);
+        dialogue.Speak(speech, false, speaker);
     }
 }
