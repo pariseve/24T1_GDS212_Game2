@@ -408,18 +408,18 @@ PrefabInstance:
     - target: {fileID: 4855715602778806748, guid: 29a30f7864c8bc747b9ceb526674aea2, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: afa5c1915f7afa14aa366e9b52b4dcbd, type: 3}
     - target: {fileID: 4855715602778806748, guid: 29a30f7864c8bc747b9ceb526674aea2, type: 3}
       propertyPath: m_Color.b
-      value: 0.24705882
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4855715602778806748, guid: 29a30f7864c8bc747b9ceb526674aea2, type: 3}
       propertyPath: m_Color.g
-      value: 0.24705882
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4855715602778806748, guid: 29a30f7864c8bc747b9ceb526674aea2, type: 3}
       propertyPath: m_Color.r
-      value: 0.24705882
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5778343708547136732, guid: 29a30f7864c8bc747b9ceb526674aea2, type: 3}
       propertyPath: m_Camera

@@ -213,12 +213,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4855715602778806748, guid: 29a30f7864c8bc747b9ceb526674aea2, type: 3}
       propertyPath: m_Type
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4855715602778806748, guid: 29a30f7864c8bc747b9ceb526674aea2, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
+      objectReference: {fileID: 21300000, guid: a47baeab8d9fb5c438672bab0b18fa6a, type: 3}
     - target: {fileID: 5778343708547136732, guid: 29a30f7864c8bc747b9ceb526674aea2, type: 3}
       propertyPath: m_Camera
       value: 
