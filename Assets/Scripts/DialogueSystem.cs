@@ -49,41 +49,52 @@ public class DialogueSystem : MonoBehaviour
 	public string targetSpeech = "";
 	Coroutine speaking = null;
 	TextArchitect textArchitect = null;
-	IEnumerator Speaking(string speech, bool additive, string speaker = "")
-	{
-		textBar.SetActive(true);
+    IEnumerator Speaking(string speech, bool additive, string speaker = "")
+    {
+        // Ensure the text box is always activated at the beginning
+        components.textBar.SetActive(true);
 
-		string additiveSpeech = additive ? speechText.text : "";
-		targetSpeech = additiveSpeech + speech;
+        if (!additive)
+        {
+            speechText.text = "";
+        }
 
-		textArchitect = new TextArchitect(speech, additiveSpeech);
+        // Initialize TextArchitect with the dialogue string
+        textArchitect = new TextArchitect(speech, additive ? speechText.text : "");
 
-		speakerName.text = DetermineSpeaker(speaker);//temporary
+        speakerName.text = DetermineSpeaker(speaker);
+        isWaitingForUserInput = false;
 
-		isWaitingForUserInput = false;
-
-		while (textArchitect.isContructing)
-		{
+        // Step through the TextArchitect's construction process
+        while (textArchitect.isContructing)
+        {
             if (Input.GetMouseButtonDown(0))
             {
-				textArchitect.skip = true;
+                textArchitect.skip = true;
             }
 
-			speechText.text = textArchitect.currentText;
+            // Update speechText with currentText from TextArchitect
+            speechText.text = textArchitect.currentText;
 
-			yield return new WaitForEndOfFrame();
-		}
-		speechText.text = textArchitect.currentText;
+            yield return new WaitForEndOfFrame();
+        }
 
-		//text finished
-		isWaitingForUserInput = true;
-		while (isWaitingForUserInput)
-			yield return new WaitForEndOfFrame();
+        // Set speechText to the final constructed text
+        speechText.text = textArchitect.currentText;
 
-		StopSpeaking();
-	}
+        // Text finishes
+        isWaitingForUserInput = true;
+        while (isWaitingForUserInput)
+        {
+            yield return new WaitForEndOfFrame();
+        }
 
-	string DetermineSpeaker(string s)
+        StopSpeaking();
+    }
+
+
+
+    string DetermineSpeaker(string s)
 	{
 		string retVal = speakerName.text;//default return is the current name
 		if (s != speakerName.text && s != "")
