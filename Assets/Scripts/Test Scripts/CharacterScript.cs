@@ -29,7 +29,7 @@ public class CharacterScript : MonoBehaviour
             }
             else
             {
-                DialogueSystem.instance.Close();
+                //DialogueSystem.instance.Close();
             }
             i++;
         }

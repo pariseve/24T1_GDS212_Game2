@@ -16,8 +16,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 765.66656
-    y: 218.86661
+    x: 630.9998
+    y: 41.53325
     width: 170
     height: 115
   isDragging: 0
@@ -44,8 +44,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2231.666
-    y: 690.86664
+    x: 868.9997
+    y: 625.53326
     width: 170
     height: 115
   isDragging: 0
@@ -72,10 +72,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 683.99994
-    y: 798.6667
+    x: 547.9998
+    y: 621.99994
     width: 190
-    height: 135
+    height: 115
   isDragging: 0
   isSelected: 0
   answers:
@@ -100,8 +100,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 966.66656
-    y: 215.86661
+    x: 830.66644
+    y: 39.19989
     width: 170
     height: 115
   isDragging: 0
@@ -112,6 +112,35 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
   parentNode: {fileID: -8705819208441359274}
   childNode: {fileID: 4411136173186865135}
+--- !u!114 &-6111907855731167007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 602.6666
+    y: 138.66669
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: The town is small but full of life, with children and townsfolk going about
+      their business, paying no mind to your arrival.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 3288320420623344160}
+  childNode: {fileID: 2559524383349502334}
 --- !u!114 &-6005459696232394752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,8 +157,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 966.66656
-    y: 449.8666
+    x: 830.66644
+    y: 273.19992
     width: 170
     height: 115
   isDragging: 0
@@ -156,8 +185,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 765.66656
-    y: 329.86667
+    x: 629.66644
+    y: 153.19998
     width: 170
     height: 115
   isDragging: 0
@@ -170,6 +199,34 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
   parentNode: {fileID: 4936782135289953885}
   childNode: {fileID: 4978805031079437192}
+--- !u!114 &-5116653102401818623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 949.33325
+    y: 136.66669
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: 'Perhaps asking around would be a good start. '
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 2559524383349502334}
+  childNode: {fileID: 0}
 --- !u!114 &-2790696347262530497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,18 +243,20 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 283.66653
-    y: 376.86667
+    x: 78.33302
+    y: 79.533325
     width: 170
     height: 115
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: cherrydev
-    text: Hello, this is Dialog Node Based System
-    characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
+    characterName: 
+    text: You reread the letter carefully over and over, searching for hidden meaning
+      within the words. You look out the window as the train starts to slow, this
+      is it.
+    characterSprite: {fileID: 0}
   parentNode: {fileID: 0}
-  childNode: {fileID: 4936782135289953885}
+  childNode: {fileID: 1316353421184135219}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,24 +267,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
-  m_Name: DemoDialogGraph
+  m_Name: Intro town dialogue
   m_EditorClassIdentifier: 
   nodesList:
   - {fileID: -2790696347262530497}
-  - {fileID: -8705819208441359274}
-  - {fileID: -5184584624021453599}
-  - {fileID: 8776957959574132249}
-  - {fileID: 3563645847101711405}
-  - {fileID: -7841181008643086002}
-  - {fileID: 4978805031079437192}
-  - {fileID: -6005459696232394752}
-  - {fileID: 548517801765535934}
-  - {fileID: -8455854530336412942}
-  - {fileID: 1175716626248544139}
-  - {fileID: 4936782135289953885}
-  - {fileID: 4411136173186865135}
-  - {fileID: 4041703163671095149}
-  - {fileID: -8399153398545565080}
+  - {fileID: 1316353421184135219}
+  - {fileID: 3288320420623344160}
+  - {fileID: -6111907855731167007}
+  - {fileID: 2559524383349502334}
+  - {fileID: -5116653102401818623}
   nodeToDrawLineFrom: {fileID: 0}
   linePosition: {x: 0, y: 0}
 --- !u!114 &548517801765535934
@@ -244,8 +294,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 964.66656
-    y: 566.8665
+    x: 828.66644
+    y: 390.19986
     width: 170
     height: 115
   isDragging: 0
@@ -272,8 +322,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1394.6663
-    y: 389.86667
+    x: 1258.6663
+    y: 213.19998
     width: 170
     height: 115
   isDragging: 0
@@ -284,6 +334,94 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
   parentNode: {fileID: 4411136173186865135}
   childNode: {fileID: 0}
+--- !u!114 &1316353421184135219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 252
+    y: 78.66669
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: 'The train ride was long and arduous, your legs ache from being seated
+      the whole way. But finally, you set foot in the town that has plagued your
+      thoughts alongside your brother''s dire request for your help. '
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -2790696347262530497}
+  childNode: {fileID: 3288320420623344160}
+--- !u!114 &2559524383349502334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 777.9999
+    y: 136.00002
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: As you take in your surroundings, it dawns on you that you have no idea
+      where exactly your brother is, nor how to locate him.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -6111907855731167007}
+  childNode: {fileID: -5116653102401818623}
+--- !u!114 &3288320420623344160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 423.33325
+    y: 78
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: You stretch out your limbs and try to shake the numbness from your legs
+      before setting off to the town square.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 1316353421184135219}
+  childNode: {fileID: -6111907855731167007}
 --- !u!114 &3563645847101711405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -300,8 +438,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 766.66656
-    y: 564.8665
+    x: 630.66644
+    y: 388.19986
     width: 170
     height: 115
   isDragging: 0
@@ -328,12 +466,12 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 402.66656
-    y: 801.33344
+    x: 266.66653
+    y: 624.6667
     width: 170
     height: 115
   isDragging: 0
-  isSelected: 1
+  isSelected: 0
   sentence:
     characterName: 
     text: 
@@ -356,8 +494,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1181.6663
-    y: 383.86667
+    x: 1045.6663
+    y: 207.19998
     width: 190
     height: 115
   isDragging: 0
@@ -383,8 +521,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 510.66653
-    y: 352.86667
+    x: 374.66647
+    y: 176.19998
     width: 190
     height: 115
   isDragging: 0
@@ -416,8 +554,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 963.66656
-    y: 330.86667
+    x: 827.66644
+    y: 154.19998
     width: 170
     height: 115
   isDragging: 0
@@ -444,8 +582,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 761.66656
-    y: 444.8666
+    x: 625.66644
+    y: 268.19992
     width: 170
     height: 115
   isDragging: 0
