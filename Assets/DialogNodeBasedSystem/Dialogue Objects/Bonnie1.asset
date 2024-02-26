@@ -1,0 +1,786 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9187910528534633193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 235
+    y: 412
+    width: 190
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Ask where to look
+  - Show her the letter
+  parentSentenceNode: {fileID: 2333004334456097677}
+  childSentenceNodes:
+  - {fileID: -4529433061040257261}
+  - {fileID: 3514188008447100974}
+--- !u!114 &-8310021450167445234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -415
+    y: 67
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: He wrote to me, I fear for his safety.
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: 9198589432117625640}
+  childNode: {fileID: -7265091380277261988}
+--- !u!114 &-7984234711287148171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 289
+    y: 64
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: You cast your eyes downward solemnly.
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: -3166473610758816747}
+  childNode: {fileID: -3012092283890786305}
+--- !u!114 &-7734554741873930325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1055
+    y: 258
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: I was afraid that may be the case.
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: 7096796623892117696}
+  childNode: {fileID: -3012092283890786305}
+--- !u!114 &-7699231117782109873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1134
+    y: 121
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: "I\u2019m looking for my brother; Henry Sutherland. Do you know where I
+      might find him ?"
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: -2375697468250341970}
+  childNode: {fileID: 4938472613889944026}
+--- !u!114 &-7265091380277261988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -237
+    y: 66
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "She reads the note to the best of her ability, you notice her sounding
+      out a few of the words under her breath. Bonnie\u2019s face twists into utter
+      confusion, her foxy expression slipping away completely."
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: -8310021450167445234}
+  childNode: {fileID: 7691449301348628133}
+--- !u!114 &-4529433061040257261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 669
+    y: 629
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: Do you have any idea where I might find him ?
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: -3012092283890786305}
+  childNode: {fileID: 2889194102944264170}
+--- !u!114 &-3166473610758816747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 118
+    y: 64
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: I was afraid that may be the case.
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: 7691449301348628133}
+  childNode: {fileID: -7984234711287148171}
+--- !u!114 &-3012092283890786305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1326
+    y: 215
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Bonnie
+    text: I will keep his name in my prayers for you.
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: -7734554741873930325}
+  childNode: {fileID: -4529433061040257261}
+--- !u!114 &-2651848807544169573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -429
+    y: 240
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: You watch the girl with unease, her demeanour off putting, and decide you
+      cannot trust her with the truth.
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: 9198589432117625640}
+  childNode: {fileID: 5356163283473901457}
+--- !u!114 &-2375697468250341970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1305
+    y: 120
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Bonnie
+    text: "Name\u2019s Bonnie, what\u2019s got ya trudgin\u2019 through a place like
+      this?"
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: 4019234282724878891}
+  childNode: {fileID: -7699231117782109873}
+--- !u!114 &-906910255111024313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -800
+    y: 123
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Bonnie
+    text: "Can\u2019t say I\u2019ve ever heard of him, what d\u2019ya need him for
+      ?"
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: 4938472613889944026}
+  childNode: {fileID: 9198589432117625640}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Bonnie1
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: 4019234282724878891}
+  - {fileID: -2375697468250341970}
+  - {fileID: -7699231117782109873}
+  - {fileID: 4938472613889944026}
+  - {fileID: -906910255111024313}
+  - {fileID: -8310021450167445234}
+  - {fileID: 9198589432117625640}
+  - {fileID: -2651848807544169573}
+  - {fileID: -7265091380277261988}
+  - {fileID: 5356163283473901457}
+  - {fileID: 7691449301348628133}
+  - {fileID: 467561083539989037}
+  - {fileID: -3166473610758816747}
+  - {fileID: -7984234711287148171}
+  - {fileID: -3012092283890786305}
+  - {fileID: 2333004334456097677}
+  - {fileID: -9187910528534633193}
+  - {fileID: -4529433061040257261}
+  - {fileID: 2889194102944264170}
+  - {fileID: 4054863217901095459}
+  - {fileID: 159825015758649064}
+  - {fileID: 3514188008447100974}
+  - {fileID: 6773368406859551274}
+  - {fileID: 5266331342365001351}
+  - {fileID: 7096796623892117696}
+  - {fileID: -7734554741873930325}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &159825015758649064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1671
+    y: 620
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Bonnie
+    text: Best of luck with ya search, Mister.
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: 4054863217901095459}
+  childNode: {fileID: 0}
+--- !u!114 &467561083539989037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -192
+    y: 362
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Bonnie
+    text: "Well, Mr. Sutherland, seems like an awful long way to travel for \u2018nothin\u2019
+      in particular\u2019."
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: 5356163283473901457}
+  childNode: {fileID: 2333004334456097677}
+--- !u!114 &2333004334456097677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -17
+    y: 363
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: 'She simpers and you know she has caught onto your dishonesty. '
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: 467561083539989037}
+  childNode: {fileID: -9187910528534633193}
+--- !u!114 &2889194102944264170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1031
+    y: 647
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Bonnie
+    text: Aye, you should ask ole Albert, he owns the tavern just over there. Knows
+      just about everyone, he does.
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: -4529433061040257261}
+  childNode: {fileID: 4054863217901095459}
+--- !u!114 &3514188008447100974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 345
+    y: 269
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: He wrote to me, I fear for his safety.
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: -9187910528534633193}
+  childNode: {fileID: 6773368406859551274}
+--- !u!114 &4019234282724878891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1476
+    y: 118
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: ???
+    text: "Aye ? Well ain\u2019t you a peculiar find in ole Willowcroft. Cityfolk
+      don\u2019t usually venture into our neck of the woods."
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -2375697468250341970}
+--- !u!114 &4054863217901095459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1330
+    y: 621
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: My apologies for bothering you, I will take my leave.
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: 2889194102944264170}
+  childNode: {fileID: 159825015758649064}
+--- !u!114 &4938472613889944026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -965
+    y: 121
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: The girl cocks a brow at the name, eying you curiously.
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: -7699231117782109873}
+  childNode: {fileID: -906910255111024313}
+--- !u!114 &5266331342365001351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 697
+    y: 265
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Bonnie
+    text: "I beg your pardon, Mr. Sutherland, but it reads like this here brother
+      of yours might\u2019ve lost his mind."
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: 6773368406859551274}
+  childNode: {fileID: 7096796623892117696}
+--- !u!114 &5356163283473901457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -366
+    y: 356
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: Nothing in particular.
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: -2651848807544169573}
+  childNode: {fileID: 467561083539989037}
+--- !u!114 &6773368406859551274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 521
+    y: 267
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "She reads the note to the best of her ability, you notice her sounding
+      out a few of the words under her breath. Bonnie\u2019s face twists into utter
+      confusion, her foxy expression slipping away completely."
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: 3514188008447100974}
+  childNode: {fileID: 5266331342365001351}
+--- !u!114 &7096796623892117696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 880
+    y: 262
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: I was afraid that may be the case.
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: 5266331342365001351}
+  childNode: {fileID: -7734554741873930325}
+--- !u!114 &7691449301348628133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -57
+    y: 65
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Bonnie
+    text: "I beg your pardon, Mr. Sutherland, but it reads like this here brother
+      of yours might\u2019ve lost his mind."
+    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
+  parentNode: {fileID: -7265091380277261988}
+  childNode: {fileID: -3166473610758816747}
+--- !u!114 &9198589432117625640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -624
+    y: 113
+    width: 190
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Show her the letter
+  - Lie
+  parentSentenceNode: {fileID: -906910255111024313}
+  childSentenceNodes:
+  - {fileID: -8310021450167445234}
+  - {fileID: -2651848807544169573}

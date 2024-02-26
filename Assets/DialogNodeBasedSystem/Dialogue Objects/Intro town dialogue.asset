@@ -128,8 +128,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 602.6666
-    y: 138.66669
+    x: 759.6666
+    y: 386.6667
     width: 170
     height: 115
   isDragging: 0
@@ -215,8 +215,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 949.33325
-    y: 136.66669
+    x: 1106.3333
+    y: 384.6667
     width: 170
     height: 115
   isDragging: 0
@@ -243,8 +243,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 78.33302
-    y: 79.533325
+    x: 235.33301
+    y: 327.53333
     width: 170
     height: 115
   isDragging: 0
@@ -252,8 +252,8 @@ MonoBehaviour:
   sentence:
     characterName: 
     text: You reread the letter carefully over and over, searching for hidden meaning
-      within the words. You look out the window as the train starts to slow, this
-      is it.
+      within the words. You look out the window as the train starts to slow, arriving
+      at your destination.
     characterSprite: {fileID: 0}
   parentNode: {fileID: 0}
   childNode: {fileID: 1316353421184135219}
@@ -350,8 +350,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 252
-    y: 78.66669
+    x: 415
+    y: 330.6667
     width: 170
     height: 115
   isDragging: 0
@@ -360,7 +360,7 @@ MonoBehaviour:
     characterName: 
     text: 'The train ride was long and arduous, your legs ache from being seated
       the whole way. But finally, you set foot in the town that has plagued your
-      thoughts alongside your brother''s dire request for your help. '
+      thoughts alongside your brother''s dire request for help. '
     characterSprite: {fileID: 0}
   parentNode: {fileID: -2790696347262530497}
   childNode: {fileID: 3288320420623344160}
@@ -380,8 +380,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 777.9999
-    y: 136.00002
+    x: 934.9999
+    y: 384
     width: 170
     height: 115
   isDragging: 0
@@ -409,8 +409,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 423.33325
-    y: 78
+    x: 580.33325
+    y: 326
     width: 170
     height: 115
   isDragging: 0
