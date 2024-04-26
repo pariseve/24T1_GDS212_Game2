@@ -16,19 +16,78 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 901.6676
-    y: 127.33327
+    x: -857.66486
+    y: 533.9997
     width: 190
-    height: 115
+    height: 155
   isDragging: 0
   isSelected: 0
   answers:
   - Ask where to look
   - Show her the letter
+  - Ask about the crowd
   parentSentenceNode: {fileID: 2333004334456097677}
   childSentenceNodes:
   - {fileID: -4529433061040257261}
   - {fileID: 3514188008447100974}
+  - {fileID: -9056721423548903514}
+--- !u!114 &-9056721423548903514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -574.66644
+    y: 758.66644
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "The bustling cluster of townsfolk crowded around a small stall to you
+      right catches both you and Bonnie\u2019s attention."
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 2889194102944264170}
+  childNode: {fileID: -3596026487257772022}
+--- !u!114 &-8784544472366917551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1875.9998
+    y: 869.3334
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Bonnie
+    text: Best of luck with ya search, Mister.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -23849654331111279}
+  childNode: {fileID: 0}
 --- !u!114 &-8310021450167445234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,8 +104,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 251.66675
-    y: -217.66666
+    x: -1507.6648
+    y: 188.99994
     width: 170
     height: 115
   isDragging: 0
@@ -73,8 +132,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 955.66754
-    y: -220.66666
+    x: -803.66486
+    y: 185.99994
     width: 170
     height: 115
   isDragging: 0
@@ -84,34 +143,6 @@ MonoBehaviour:
     text: You cast your eyes downward solemnly.
     characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
   parentNode: {fileID: -3166473610758816747}
-  childNode: {fileID: -3012092283890786305}
---- !u!114 &-7734554741873930325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 1721.6665
-    y: -26.666687
-    width: 170
-    height: 115
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: 
-    text: I was afraid that may be the case.
-    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
-  parentNode: {fileID: 7096796623892117696}
   childNode: {fileID: -3012092283890786305}
 --- !u!114 &-7699231117782109873
 MonoBehaviour:
@@ -129,8 +160,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -467.33304
-    y: -163.66669
+    x: -2226.6685
+    y: 242.99988
     width: 170
     height: 115
   isDragging: 0
@@ -158,8 +189,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 429.66727
-    y: -218.66666
+    x: -1329.6648
+    y: 187.99994
     width: 170
     height: 115
   isDragging: 0
@@ -172,6 +203,34 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
   parentNode: {fileID: -8310021450167445234}
   childNode: {fileID: 7691449301348628133}
+--- !u!114 &-7084103851462406960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 780.6688
+    y: 867.99976
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Bonnie
+    text: I bet ya would..
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 7225968174429579444}
+  childNode: {fileID: 7562387709111452880}
 --- !u!114 &-4529433061040257261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,8 +247,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1335.6667
-    y: 344.33313
+    x: -575.6674
+    y: 559.6659
     width: 170
     height: 115
   isDragging: 0
@@ -200,6 +259,91 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
   parentNode: {fileID: -3012092283890786305}
   childNode: {fileID: 2889194102944264170}
+--- !u!114 &-4510759045428831685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -196.66693
+    y: 761.33307
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: Bonnie glances at the commotion and sighs dramatically.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -3596026487257772022}
+  childNode: {fileID: 6967491174863050041}
+--- !u!114 &-3661815862409495608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 188.0011
+    y: 759.99963
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Does that bother you ?
+  - "I\u2019d quite like to try some sweets."
+  parentSentenceNode: {fileID: 6967491174863050041}
+  childSentenceNodes:
+  - {fileID: -2789724516603712894}
+  - {fileID: 7618554330981586381}
+--- !u!114 &-3596026487257772022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -385.3344
+    y: 757.99976
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: "What\u2019s all the fuss about ?"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -9056721423548903514}
+  childNode: {fileID: -4510759045428831685}
 --- !u!114 &-3166473610758816747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,8 +360,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 784.6673
-    y: -220.66666
+    x: -974.66583
+    y: 185.99994
     width: 170
     height: 115
   isDragging: 0
@@ -244,8 +388,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1992.6653
-    y: -69.66669
+    x: 23.999329
+    y: 378.33313
     width: 170
     height: 115
   isDragging: 0
@@ -254,8 +398,37 @@ MonoBehaviour:
     characterName: Bonnie
     text: I will keep his name in my prayers for you.
     characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
-  parentNode: {fileID: -7734554741873930325}
+  parentNode: {fileID: 7096796623892117696}
   childNode: {fileID: -4529433061040257261}
+--- !u!114 &-2789724516603712894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 402.00037
+    y: 703.33295
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: Her lips form a tight line and she kicks the dirt halfheartedly, trying
+      and failing miserably to hide her disappointment.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -3661815862409495608}
+  childNode: {fileID: 8370844529448551447}
 --- !u!114 &-2651848807544169573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,8 +445,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 237.66675
-    y: -44.666687
+    x: -1521.6658
+    y: 361.99982
     width: 170
     height: 115
   isDragging: 0
@@ -301,8 +474,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -638.33295
-    y: -164.66669
+    x: -2397.6694
+    y: 241.99988
     width: 170
     height: 115
   isDragging: 0
@@ -330,8 +503,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -133.33331
-    y: -161.66669
+    x: -1892.6676
+    y: 244.99982
     width: 170
     height: 115
   isDragging: 0
@@ -343,6 +516,34 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
   parentNode: {fileID: 4938472613889944026}
   childNode: {fileID: 9198589432117625640}
+--- !u!114 &-23849654331111279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1695.9999
+    y: 869.99994
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: My apologies for bothering you, I will take my leave.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 2011243943740087261}
+  childNode: {fileID: -8784544472366917551}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -375,43 +576,28 @@ MonoBehaviour:
   - {fileID: -9187910528534633193}
   - {fileID: -4529433061040257261}
   - {fileID: 2889194102944264170}
-  - {fileID: 4054863217901095459}
-  - {fileID: 159825015758649064}
   - {fileID: 3514188008447100974}
   - {fileID: 6773368406859551274}
   - {fileID: 5266331342365001351}
   - {fileID: 7096796623892117696}
-  - {fileID: -7734554741873930325}
+  - {fileID: -9056721423548903514}
+  - {fileID: -3596026487257772022}
+  - {fileID: -4510759045428831685}
+  - {fileID: 6967491174863050041}
+  - {fileID: -3661815862409495608}
+  - {fileID: -2789724516603712894}
+  - {fileID: 7618554330981586381}
+  - {fileID: 8370844529448551447}
+  - {fileID: 7225968174429579444}
+  - {fileID: -7084103851462406960}
+  - {fileID: 7562387709111452880}
+  - {fileID: 4413087681332113727}
+  - {fileID: 1792994694127908537}
+  - {fileID: 2011243943740087261}
+  - {fileID: -23849654331111279}
+  - {fileID: -8784544472366917551}
   nodeToDrawLineFrom: {fileID: 0}
   linePosition: {x: 0, y: 0}
---- !u!114 &159825015758649064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 2337.6624
-    y: 335.33307
-    width: 170
-    height: 115
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: Bonnie
-    text: Best of luck with ya search, Mister.
-    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
-  parentNode: {fileID: 4054863217901095459}
-  childNode: {fileID: 0}
 --- !u!114 &467561083539989037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -428,8 +614,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 474.66705
-    y: 77.33327
+    x: -1284.6648
+    y: 483.9997
     width: 170
     height: 115
   isDragging: 0
@@ -441,6 +627,63 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
   parentNode: {fileID: 5356163283473901457}
   childNode: {fileID: 2333004334456097677}
+--- !u!114 &1792994694127908537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1339.3344
+    y: 869.9995
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: She shakes her head non committedly, relaxing back into her sly persona.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 4413087681332113727}
+  childNode: {fileID: 2011243943740087261}
+--- !u!114 &2011243943740087261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1517.3365
+    y: 869.33276
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Bonnie
+    text: "Come find me after the rush dies down and maybe I\u2019ll sell ya some
+      at a discount."
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 1792994694127908537}
+  childNode: {fileID: -23849654331111279}
 --- !u!114 &2333004334456097677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -457,8 +700,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 649.66705
-    y: 78.33327
+    x: -1109.6663
+    y: 484.99976
     width: 170
     height: 115
   isDragging: 0
@@ -485,8 +728,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1697.666
-    y: 362.33313
+    x: -343.0019
+    y: 552.3326
     width: 170
     height: 115
   isDragging: 0
@@ -497,7 +740,7 @@ MonoBehaviour:
       just about everyone, he does.
     characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
   parentNode: {fileID: -4529433061040257261}
-  childNode: {fileID: 4054863217901095459}
+  childNode: {fileID: -9056721423548903514}
 --- !u!114 &3514188008447100974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -514,8 +757,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1011.6673
-    y: -15.666687
+    x: -747.66583
+    y: 390.99982
     width: 170
     height: 115
   isDragging: 0
@@ -542,8 +785,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -809.33295
-    y: -166.66669
+    x: -2568.6714
+    y: 239.99988
     width: 170
     height: 115
   isDragging: 0
@@ -555,7 +798,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
   parentNode: {fileID: 0}
   childNode: {fileID: -2375697468250341970}
---- !u!114 &4054863217901095459
+--- !u!114 &4413087681332113727
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -571,18 +814,18 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1996.6653
-    y: 336.33307
+    x: 1150.0013
+    y: 870.66626
     width: 170
     height: 115
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: You
-    text: My apologies for bothering you, I will take my leave.
-    characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
-  parentNode: {fileID: 2889194102944264170}
-  childNode: {fileID: 159825015758649064}
+    text: Pardon ?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 7562387709111452880}
+  childNode: {fileID: 1792994694127908537}
 --- !u!114 &4938472613889944026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -599,8 +842,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -298.3334
-    y: -163.66669
+    x: -2057.6675
+    y: 242.99988
     width: 170
     height: 115
   isDragging: 0
@@ -627,16 +870,16 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1363.666
-    y: -19.666687
+    x: -395.66766
+    y: 386.99982
     width: 170
     height: 115
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Bonnie
-    text: "I beg your pardon, Mr. Sutherland, but it reads like this here brother
-      of yours might\u2019ve lost his mind."
+    text: "I beg your pardon, Mr. Bromwell, but it reads like this here brother of
+      yours isn\u2019t quite sound of mind."
     characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
   parentNode: {fileID: 6773368406859551274}
   childNode: {fileID: 7096796623892117696}
@@ -656,8 +899,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 300.66675
-    y: 71.33327
+    x: -1458.6654
+    y: 477.9997
     width: 170
     height: 115
   isDragging: 0
@@ -684,8 +927,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1187.667
-    y: -17.666687
+    x: -571.66644
+    y: 388.99982
     width: 170
     height: 115
   isDragging: 0
@@ -698,6 +941,35 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
   parentNode: {fileID: 3514188008447100974}
   childNode: {fileID: 5266331342365001351}
+--- !u!114 &6967491174863050041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -13.999451
+    y: 759.9997
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Bonnie
+    text: "Father\u2019s newest batch o\u2019 sweets. He\u2019s become obsessed with
+      \u2018em, him and everyone else. "
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -4510759045428831685}
+  childNode: {fileID: -3661815862409495608}
 --- !u!114 &7096796623892117696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,8 +986,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1546.6655
-    y: -22.666687
+    x: -212.66864
+    y: 383.99982
     width: 170
     height: 115
   isDragging: 0
@@ -725,7 +997,92 @@ MonoBehaviour:
     text: I was afraid that may be the case.
     characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
   parentNode: {fileID: 5266331342365001351}
-  childNode: {fileID: -7734554741873930325}
+  childNode: {fileID: -3012092283890786305}
+--- !u!114 &7225968174429579444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 586.6671
+    y: 868.6665
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: Bonnie lets out a huff, rolling her eyes.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 7618554330981586381}
+  childNode: {fileID: -7084103851462406960}
+--- !u!114 &7562387709111452880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 964.0011
+    y: 869.9995
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "She mutters under her breath, you decide it best to pretend you didn\u2019t
+      hear her."
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -7084103851462406960}
+  childNode: {fileID: 4413087681332113727}
+--- !u!114 &7618554330981586381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 396.00037
+    y: 871.9995
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: I'd quite like to try some sweets.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 8370844529448551447}
+  childNode: {fileID: 7225968174429579444}
 --- !u!114 &7691449301348628133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -742,8 +1099,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 609.66705
-    y: -219.66666
+    x: -1149.6664
+    y: 186.99994
     width: 170
     height: 115
   isDragging: 0
@@ -755,6 +1112,35 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: c814400eed2d76c4b9b293fc8366a316, type: 3}
   parentNode: {fileID: -7265091380277261988}
   childNode: {fileID: -3166473610758816747}
+--- !u!114 &8370844529448551447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 585.3341
+    y: 700.66626
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Bonnie
+    text: "Just seems like people don\u2019t have a lotta time for fresh produce
+      no more."
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -2789724516603712894}
+  childNode: {fileID: 7618554330981586381}
 --- !u!114 &9198589432117625640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -771,10 +1157,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 42.666817
-    y: -171.66666
+    x: -1716.6659
+    y: 234.99994
     width: 190
-    height: 115
+    height: 135
   isDragging: 0
   isSelected: 0
   answers:
