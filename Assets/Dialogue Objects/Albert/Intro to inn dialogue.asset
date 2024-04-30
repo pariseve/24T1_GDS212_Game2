@@ -16,8 +16,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2031.001
-    y: 113
+    x: -2585.001
+    y: 121
     width: 170
     height: 115
   isDragging: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
     characterName: Albert
     text: "Welcome to The Millwrights Rest, friend. Name\u2019s Albert, and you might
       be?"
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: 654135673994382820}
   childNode: {fileID: -2055134203117023950}
 --- !u!114 &-7561081101133599683
@@ -45,8 +45,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1670.0007
-    y: 109
+    x: -2224.0007
+    y: 117
     width: 170
     height: 115
   isDragging: 0
@@ -55,7 +55,7 @@ MonoBehaviour:
     characterName: Albert
     text: Aye, It's a pleasure to meet you (name), can I get you a drink? Only two
       pence a pint.
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: -2055134203117023950}
   childNode: {fileID: 5023525795539607401}
 --- !u!114 &-5990949534951002389
@@ -74,8 +74,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -262.0003
-    y: 221.00003
+    x: -816.00024
+    y: 229.00003
     width: 170
     height: 115
   isDragging: 0
@@ -84,7 +84,7 @@ MonoBehaviour:
     characterName: Albert
     text: I see. Well, I do happen to have a fair few people come through this establishment,
       might I ask your brother's name?
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: -2119766285643070385}
   childNode: {fileID: -4371918197576601424}
 --- !u!114 &-5609352036686706722
@@ -103,8 +103,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 258.9995
-    y: 224.00003
+    x: -295.0005
+    y: 232.00003
     width: 170
     height: 115
   isDragging: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
   sentence:
     characterName: Albert
     text: "My apologies, friend, I\u2019m afraid I don\u2019t recall such a name."
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: 8093311159551306061}
   childNode: {fileID: 8727623968670229496}
 --- !u!114 &-5316497687152563860
@@ -131,8 +131,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 610
-    y: 227.00003
+    x: 56
+    y: 235.00003
     width: 170
     height: 115
   isDragging: 0
@@ -141,7 +141,7 @@ MonoBehaviour:
     characterName: 
     text: You feel a deep sense of unease settle in your stomach. Was your brother
       here at all?
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: 8727623968670229496}
   childNode: {fileID: 113763727771692524}
 --- !u!114 &-4371918197576601424
@@ -160,8 +160,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -89.333954
-    y: 222.00003
+    x: -643.334
+    y: 230.00003
     width: 170
     height: 115
   isDragging: 0
@@ -169,7 +169,7 @@ MonoBehaviour:
   sentence:
     characterName: You
     text: Henry Bromwell.
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: -5990949534951002389}
   childNode: {fileID: 8093311159551306061}
 --- !u!114 &-2964294630099094129
@@ -188,8 +188,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -421.00104
-    y: 40.000015
+    x: -975.001
+    y: 48.000015
     width: 170
     height: 115
   isDragging: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
   sentence:
     characterName: You
     text: "I\u2019m looking for someone, my brother."
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: -919146849433964673}
   childNode: {fileID: -5990949534951002389}
 --- !u!114 &-2119766285643070385
@@ -216,8 +216,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1284.9993
-    y: 225.00003
+    x: -1838.9993
+    y: 233.00003
     width: 170
     height: 115
   isDragging: 0
@@ -225,7 +225,7 @@ MonoBehaviour:
   sentence:
     characterName: You
     text: 'No thank you, I happen to be looking for someone. '
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: 0}
   childNode: {fileID: -5990949534951002389}
 --- !u!114 &-2055134203117023950
@@ -244,8 +244,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1849.0015
-    y: 111
+    x: -2403.0015
+    y: 119
     width: 170
     height: 115
   isDragging: 0
@@ -253,7 +253,7 @@ MonoBehaviour:
   sentence:
     characterName: You
     text: Name's (name).
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: -8017547382351352721}
   childNode: {fileID: -7561081101133599683}
 --- !u!114 &-919146849433964673
@@ -272,8 +272,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -598.9991
-    y: 42.000015
+    x: -1152.999
+    y: 50.000015
     width: 170
     height: 115
   isDragging: 0
@@ -281,7 +281,7 @@ MonoBehaviour:
   sentence:
     characterName: Albert
     text: Well then, what brings you to Willowcroft, (name)?
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: 622010760275788}
   childNode: {fileID: -2964294630099094129}
 --- !u!114 &-287656232051443737
@@ -300,8 +300,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1120.9995
-    y: 42.000015
+    x: -1674.9995
+    y: 50.000015
     width: 170
     height: 115
   isDragging: 0
@@ -309,7 +309,7 @@ MonoBehaviour:
   sentence:
     characterName: 
     text: You fish out your coin pouch from your pocket and hand him the amount.
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: 6768244392766134147}
   childNode: {fileID: 4972314120937384535}
 --- !u!114 &11400000
@@ -365,8 +365,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -774.99915
-    y: 40.000015
+    x: -1328.999
+    y: 48.000015
     width: 170
     height: 115
   isDragging: 0
@@ -376,7 +376,7 @@ MonoBehaviour:
     text: Albert saunters behind the bar and fixes your drink with practised skill.
       He hands you the pint and you drink it readily, savouring the bittersweet taste
       that quenches your thirst.
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: 4972314120937384535}
   childNode: {fileID: -919146849433964673}
 --- !u!114 &113763727771692524
@@ -395,8 +395,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 784.9984
-    y: 227.00003
+    x: 230.99854
+    y: 235.00003
     width: 170
     height: 115
   isDragging: 0
@@ -404,7 +404,7 @@ MonoBehaviour:
   sentence:
     characterName: You
     text: Well then, I won't take anymore of your time.
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: -5316497687152563860}
   childNode: {fileID: 5188457629609385720}
 --- !u!114 &654135673994382820
@@ -423,8 +423,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2213.001
-    y: 114
+    x: -2767.001
+    y: 122
     width: 170
     height: 115
   isDragging: 0
@@ -433,7 +433,7 @@ MonoBehaviour:
     characterName: 
     text: " Before you\u2019re able to take another step, the barkeep approaches
       you."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: 9219062946058241854}
   childNode: {fileID: -8017547382351352721}
 --- !u!114 &4972314120937384535
@@ -452,8 +452,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -948.99915
-    y: 40.000015
+    x: -1502.999
+    y: 48.000015
     width: 170
     height: 115
   isDragging: 0
@@ -461,7 +461,7 @@ MonoBehaviour:
   sentence:
     characterName: Albert
     text: One ale coming right up.
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: -287656232051443737}
   childNode: {fileID: 622010760275788}
 --- !u!114 &5023525795539607401
@@ -480,10 +480,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1492.0005
-    y: 110
+    x: -2046.0005
+    y: 118
     width: 190
-    height: 115
+    height: 135
   isDragging: 0
   isSelected: 0
   answers:
@@ -509,8 +509,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 956.99713
-    y: 230.00003
+    x: 402.99707
+    y: 238.00003
     width: 170
     height: 115
   isDragging: 0
@@ -518,7 +518,7 @@ MonoBehaviour:
   sentence:
     characterName: Albert
     text: Aye, I hope you find him.
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: 113763727771692524}
   childNode: {fileID: 0}
 --- !u!114 &5507405850627395062
@@ -537,8 +537,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2583
-    y: 110
+    x: -3137
+    y: 118
     width: 170
     height: 115
   isDragging: 0
@@ -566,8 +566,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1289.9993
-    y: 42.000015
+    x: -1843.9993
+    y: 50.000015
     width: 170
     height: 115
   isDragging: 0
@@ -575,7 +575,7 @@ MonoBehaviour:
   sentence:
     characterName: You
     text: A pint of your finest ale please.
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: 5023525795539607401}
   childNode: {fileID: -287656232051443737}
 --- !u!114 &8093311159551306061
@@ -594,8 +594,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 87.99927
-    y: 222.00003
+    x: -466.00073
+    y: 230.00003
     width: 170
     height: 115
   isDragging: 0
@@ -604,7 +604,7 @@ MonoBehaviour:
     characterName: 
     text: Albert furrows his brows, looking deep in thought. Eventually he regards
       you once more, a sympathetic smile on his face.
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: -4371918197576601424}
   childNode: {fileID: -5609352036686706722}
 --- !u!114 &8727623968670229496
@@ -623,8 +623,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 435.00012
-    y: 225.00003
+    x: -119
+    y: 233.00003
     width: 170
     height: 115
   isDragging: 0
@@ -632,7 +632,7 @@ MonoBehaviour:
   sentence:
     characterName: You
     text: I see...
-    characterSprite: {fileID: 21300000, guid: 568d85fa7496bd844a6ae4dccf5843c7, type: 3}
+    characterSprite: {fileID: 21300000, guid: ed15dcc9a8cbd2841a0490001c23ff0d, type: 3}
   parentNode: {fileID: -5609352036686706722}
   childNode: {fileID: -5316497687152563860}
 --- !u!114 &9219062946058241854
@@ -651,8 +651,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2400.001
-    y: 115
+    x: -2954.001
+    y: 123
     width: 170
     height: 115
   isDragging: 0
