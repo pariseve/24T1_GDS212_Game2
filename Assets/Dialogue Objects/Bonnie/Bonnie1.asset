@@ -16,10 +16,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1569.6648
-    y: 296.9997
+    x: -2052.6648
+    y: 211.9997
     width: 190
-    height: 155
+    height: 115
   isDragging: 0
   isSelected: 0
   answers:
@@ -47,8 +47,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1316.6665
-    y: 567.66644
+    x: -1799.6665
+    y: 482.66644
     width: 170
     height: 115
   isDragging: 0
@@ -76,8 +76,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1100
-    y: 634.3334
+    x: 617
+    y: 549.3334
     width: 170
     height: 115
   isDragging: 0
@@ -104,8 +104,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -649
-    y: 423
+    x: -1230
+    y: 334
     width: 170
     height: 115
   isDragging: 0
@@ -113,9 +113,9 @@ MonoBehaviour:
   sentence:
     characterName: Bonnie
     text: Best of luck with ya search, Mister.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: 2314153354885521903}
-  childNode: {fileID: 0}
+  childNode: {fileID: -7027478391301537822}
 --- !u!114 &-8310021450167445234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,8 +132,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2219.6648
-    y: -48.00006
+    x: -2702.6648
+    y: -133.00006
     width: 170
     height: 115
   isDragging: 0
@@ -160,8 +160,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1515.6648
-    y: -51.00006
+    x: -1998.6648
+    y: -136.00006
     width: 170
     height: 115
   isDragging: 0
@@ -188,8 +188,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2938.6685
-    y: 5.999878
+    x: -3421.6685
+    y: -79.00012
     width: 170
     height: 115
   isDragging: 0
@@ -217,8 +217,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2041.6648
-    y: -49.00006
+    x: -2524.6648
+    y: -134.00006
     width: 170
     height: 115
   isDragging: 0
@@ -247,8 +247,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 7.6689453
-    y: 634.99976
+    x: -475.33105
+    y: 549.99976
     width: 170
     height: 115
   isDragging: 0
@@ -259,6 +259,34 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: 7225968174429579444}
   childNode: {fileID: 7562387709111452880}
+--- !u!114 &-7027478391301537822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1053
+    y: 332
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: You turn and leave.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -8402308215822375153}
+  childNode: {fileID: 0}
 --- !u!114 &-4529433061040257261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,8 +303,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1256.6675
-    y: 282.6659
+    x: -1739.6675
+    y: 197.6659
     width: 170
     height: 115
   isDragging: 0
@@ -303,8 +331,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -957.667
-    y: 562.33307
+    x: -1440.667
+    y: 477.33307
     width: 170
     height: 115
   isDragging: 0
@@ -331,10 +359,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -889
-    y: 275
+    x: -1372
+    y: 190
     width: 190
-    height: 135
+    height: 115
   isDragging: 0
   isSelected: 0
   answers:
@@ -360,10 +388,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -598.999
-    y: 555.99963
+    x: -1081.999
+    y: 470.99963
     width: 190
-    height: 135
+    height: 115
   isDragging: 0
   isSelected: 0
   answers:
@@ -389,8 +417,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1139.3345
-    y: 563.99976
+    x: -1622.3345
+    y: 478.99976
     width: 170
     height: 115
   isDragging: 0
@@ -417,8 +445,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1686.6658
-    y: -51.00006
+    x: -2169.6658
+    y: -136.00006
     width: 170
     height: 115
   isDragging: 0
@@ -445,8 +473,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -740.001
-    y: 104.33313
+    x: -1223.001
+    y: 19.33313
     width: 170
     height: 115
   isDragging: 0
@@ -473,8 +501,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -375.9995
-    y: 487.33295
+    x: -858.9995
+    y: 402.33295
     width: 170
     height: 115
   isDragging: 0
@@ -502,8 +530,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -3459
-    y: 5
+    x: -3942
+    y: -80
     width: 170
     height: 115
   isDragging: 0
@@ -531,8 +559,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2233.6658
-    y: 124.99982
+    x: -2716.6658
+    y: 39.999817
     width: 170
     height: 115
   isDragging: 0
@@ -560,8 +588,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -3109.6694
-    y: 4.999878
+    x: -3592.6694
+    y: -80.00012
     width: 170
     height: 115
   isDragging: 0
@@ -589,8 +617,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -90
-    y: 248
+    x: -573
+    y: 163
     width: 170
     height: 115
   isDragging: 0
@@ -618,8 +646,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2604.6675
-    y: 7.999817
+    x: -3087.6675
+    y: -77.00018
     width: 170
     height: 115
   isDragging: 0
@@ -647,8 +675,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -3647
-    y: 0
+    x: -4130
+    y: -85
     width: 170
     height: 115
   isDragging: 0
@@ -677,15 +705,15 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 916
-    y: 635.99994
+    x: 433
+    y: 551
     width: 170
     height: 115
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: You
-    text: I might have to take you up on that offer
+    text: I might have to take you up on that offer.
     characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: 2011243943740087261}
   childNode: {fileID: -8784544472366917551}
@@ -751,6 +779,8 @@ MonoBehaviour:
   - {fileID: -1241090052989477161}
   - {fileID: 2314153354885521903}
   - {fileID: -8402308215822375153}
+  - {fileID: -7027478391301537822}
+  - {fileID: 8917082337376639115}
   nodeToDrawLineFrom: {fileID: 0}
   linePosition: {x: 0, y: 0}
 --- !u!114 &467561083539989037
@@ -769,8 +799,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1996.6648
-    y: 246.9997
+    x: -2479.6648
+    y: 161.9997
     width: 170
     height: 115
   isDragging: 0
@@ -798,8 +828,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -291
-    y: 255
+    x: -774
+    y: 170
     width: 170
     height: 115
   isDragging: 0
@@ -826,8 +856,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 548.3345
-    y: 634.9995
+    x: 65.33447
+    y: 549.9995
     width: 170
     height: 115
   isDragging: 0
@@ -854,8 +884,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 730.3364
-    y: 634.33276
+    x: 247.33643
+    y: 549.33276
     width: 170
     height: 115
   isDragging: 0
@@ -883,8 +913,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -826
-    y: 421
+    x: -1405
+    y: 334
     width: 170
     height: 115
   isDragging: 0
@@ -892,7 +922,7 @@ MonoBehaviour:
   sentence:
     characterName: You
     text: My apologies for bothering you, I will take my leave.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: -3925845046426064688}
   childNode: {fileID: -8402308215822375153}
 --- !u!114 &2333004334456097677
@@ -911,8 +941,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1821.6663
-    y: 247.99976
+    x: -2304.6663
+    y: 162.99976
     width: 170
     height: 115
   isDragging: 0
@@ -939,8 +969,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -645
-    y: 255
+    x: -1128
+    y: 170
     width: 170
     height: 115
   isDragging: 0
@@ -968,8 +998,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1070.002
-    y: 279.33258
+    x: -1553.002
+    y: 194.33258
     width: 170
     height: 115
   isDragging: 0
@@ -997,8 +1027,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1462.6658
-    y: 112.99982
+    x: -1945.6658
+    y: 27.999817
     width: 170
     height: 115
   isDragging: 0
@@ -1025,8 +1055,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -3280.6714
-    y: 2.999878
+    x: -3763.6714
+    y: -82.00012
     width: 170
     height: 115
   isDragging: 0
@@ -1054,8 +1084,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 371.00146
-    y: 634.66626
+    x: -111.998535
+    y: 549.66626
     width: 170
     height: 115
   isDragging: 0
@@ -1082,8 +1112,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1282
-    y: 633
+    x: 799
+    y: 548
     width: 170
     height: 115
   isDragging: 0
@@ -1093,7 +1123,7 @@ MonoBehaviour:
     text: Best of luck with ya search, Mister.
     characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: -8784544472366917551}
-  childNode: {fileID: 0}
+  childNode: {fileID: 8917082337376639115}
 --- !u!114 &4938472613889944026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1110,8 +1140,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2769.6675
-    y: 5.999878
+    x: -3252.6675
+    y: -79.00012
     width: 170
     height: 115
   isDragging: 0
@@ -1138,8 +1168,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1105.6677
-    y: 109.99982
+    x: -1588.6677
+    y: 24.999817
     width: 170
     height: 115
   isDragging: 0
@@ -1167,8 +1197,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2170.6655
-    y: 240.9997
+    x: -2653.6655
+    y: 155.9997
     width: 170
     height: 115
   isDragging: 0
@@ -1195,8 +1225,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1283.6665
-    y: 114.99982
+    x: -1766.6665
+    y: 29.999817
     width: 170
     height: 115
   isDragging: 0
@@ -1225,8 +1255,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -772.9995
-    y: 560.9997
+    x: -1255.9995
+    y: 475.9997
     width: 170
     height: 115
   isDragging: 0
@@ -1254,8 +1284,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -924.6687
-    y: 111.99982
+    x: -1407.6687
+    y: 26.999817
     width: 170
     height: 115
   isDragging: 0
@@ -1282,8 +1312,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -182.33301
-    y: 633.6665
+    x: -665.333
+    y: 548.6665
     width: 170
     height: 115
   isDragging: 0
@@ -1310,8 +1340,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 189.00098
-    y: 635.9995
+    x: -293.99902
+    y: 550.9995
     width: 170
     height: 115
   isDragging: 0
@@ -1339,8 +1369,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -372.9995
-    y: 634.9995
+    x: -855.9995
+    y: 549.9995
     width: 170
     height: 115
   isDragging: 0
@@ -1367,8 +1397,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -471
-    y: 254
+    x: -954
+    y: 169
     width: 170
     height: 115
   isDragging: 0
@@ -1395,16 +1425,16 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1861.6665
-    y: -50.00006
+    x: -2344.6665
+    y: -135.00006
     width: 170
     height: 115
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Bonnie
-    text: "I beg your pardon, Mr. Sutherland, but it reads like this here brother
-      of yours might\u2019ve lost his mind."
+    text: "I beg your pardon, Mr. Bromwell, but it reads like this here brother of
+      yours might\u2019ve lost his mind."
     characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: -7265091380277261988}
   childNode: {fileID: -3166473610758816747}
@@ -1424,8 +1454,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -193.66602
-    y: 485.66626
+    x: -676.666
+    y: 400.66626
     width: 170
     height: 115
   isDragging: 0
@@ -1437,6 +1467,34 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: -2789724516603712894}
   childNode: {fileID: 7618554330981586381}
+--- !u!114 &8917082337376639115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 975
+    y: 550
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: You turn and leave.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 4644093857154229688}
+  childNode: {fileID: 0}
 --- !u!114 &9198589432117625640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1453,10 +1511,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2428.666
-    y: -2.000061
+    x: -2911.666
+    y: -87.00006
     width: 190
-    height: 135
+    height: 115
   isDragging: 0
   isSelected: 0
   answers:

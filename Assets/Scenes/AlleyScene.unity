@@ -131,6 +131,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 75543879504135656, guid: 29a30f7864c8bc747b9ceb526674aea2, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 939922589728714479, guid: 29a30f7864c8bc747b9ceb526674aea2, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -218,7 +222,11 @@ PrefabInstance:
     - target: {fileID: 4855715602778806748, guid: 29a30f7864c8bc747b9ceb526674aea2, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a47baeab8d9fb5c438672bab0b18fa6a, type: 3}
+      objectReference: {fileID: 21300000, guid: 54448bdd28fc88f4fa5412607bac3fa4, type: 3}
+    - target: {fileID: 5589263653057585217, guid: 29a30f7864c8bc747b9ceb526674aea2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5778343708547136732, guid: 29a30f7864c8bc747b9ceb526674aea2, type: 3}
       propertyPath: m_Camera
       value: 
@@ -232,33 +240,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29a30f7864c8bc747b9ceb526674aea2, type: 3}
---- !u!114 &457750045 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4248888883874889115, guid: 29a30f7864c8bc747b9ceb526674aea2, type: 3}
-  m_PrefabInstance: {fileID: 457750044}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &457750046 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1106999219310216082, guid: 29a30f7864c8bc747b9ceb526674aea2, type: 3}
-  m_PrefabInstance: {fileID: 457750044}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &457750047 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9112420256407812058, guid: 29a30f7864c8bc747b9ceb526674aea2, type: 3}
-  m_PrefabInstance: {fileID: 457750044}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &813011915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -270,6 +251,10 @@ PrefabInstance:
     - target: {fileID: 2317762870520840462, guid: 6a8a66945d361804cbdaf2b45e03318a, type: 3}
       propertyPath: m_Name
       value: Dialogue Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317762870520840462, guid: 6a8a66945d361804cbdaf2b45e03318a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7677840418479281442, guid: 6a8a66945d361804cbdaf2b45e03318a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -314,15 +299,15 @@ PrefabInstance:
     - target: {fileID: 8325148159162864938, guid: 6a8a66945d361804cbdaf2b45e03318a, type: 3}
       propertyPath: components.textBar
       value: 
-      objectReference: {fileID: 457750047}
+      objectReference: {fileID: 0}
     - target: {fileID: 8325148159162864938, guid: 6a8a66945d361804cbdaf2b45e03318a, type: 3}
       propertyPath: components.speechText
       value: 
-      objectReference: {fileID: 457750045}
+      objectReference: {fileID: 0}
     - target: {fileID: 8325148159162864938, guid: 6a8a66945d361804cbdaf2b45e03318a, type: 3}
       propertyPath: components.speakerName
       value: 
-      objectReference: {fileID: 457750046}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

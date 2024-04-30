@@ -22,5 +22,11 @@ public class InputHandler : MonoBehaviour
         {
             rayHit.collider.GetComponent<SceneManagement>().GoToScene();
         }
+        var bonnieDialogue = rayHit.collider.GetComponent<BonnieDialogue>();
+        if (bonnieDialogue)
+        {
+            // Trigger the FirstInteraction function
+            bonnieDialogue.FirstInteraction();
+        }
     }
 }
