@@ -16,7 +16,7 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 496.33322
+    x: 494.33322
     y: 308.6667
     width: 170
     height: 115
@@ -44,7 +44,7 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 265.33334
+    x: 263.33334
     y: 186.66666
     width: 190
     height: 115
@@ -92,7 +92,7 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 78.33328
+    x: 76.33328
     y: 193.66666
     width: 170
     height: 115
@@ -120,7 +120,7 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 509.33322
+    x: 507.33325
     y: 109.66667
     width: 170
     height: 115

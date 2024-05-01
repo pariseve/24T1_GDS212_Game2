@@ -28,7 +28,7 @@ namespace cherrydev
         }
 
         /// <summary>
-        /// Assigning dialog name text, character image sprite and dialog text
+        /// Assigning dialog name text, character image sprite, and dialog text
         /// </summary>
         /// <param name="name"></param>
         public void Setup(string name, string text, Sprite sprite)
@@ -38,14 +38,15 @@ namespace cherrydev
 
             if (sprite == null)
             {
-                dialogCharacterImage.color = new Color(dialogCharacterImage.color.r,
-                    dialogCharacterImage.color.g, dialogCharacterImage.color.b, 0);
-                return;
+                // Deactivate the character image GameObject if no sprite is provided
+                dialogCharacterImage.gameObject.SetActive(false);
             }
-
-            dialogCharacterImage.color = new Color(dialogCharacterImage.color.r,
-                    dialogCharacterImage.color.g, dialogCharacterImage.color.b, 255);
-            dialogCharacterImage.sprite = sprite;
+            else
+            {
+                // Activate the character image GameObject and assign the sprite
+                dialogCharacterImage.gameObject.SetActive(true);
+                dialogCharacterImage.sprite = sprite;
+            }
         }
 
         /// <summary>

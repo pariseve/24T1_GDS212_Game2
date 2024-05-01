@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 123.99001}
-  m_SizeDelta: {x: 1820, y: 247.98}
+  m_AnchoredPosition: {x: -22.6846, y: 123.99001}
+  m_SizeDelta: {x: 1774.6309, y: 247.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6114854639091108685
 CanvasRenderer:
@@ -340,6 +340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54577d38420c01d44a9b28330b6a8517, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triggerManager: {fileID: 0}
   dialogCharDelay: 0.2
   nextSentenceKeyCodes: 2000000043010000
   isCanSkippingText: 1
@@ -653,8 +654,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 909.9999, y: -51.009995}
-  m_SizeDelta: {x: 1820, y: 102.02}
+  m_AnchoredPosition: {x: 873.7045, y: -51.009995}
+  m_SizeDelta: {x: 1747.4092, y: 102.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5598916566200762015
 CanvasRenderer:
