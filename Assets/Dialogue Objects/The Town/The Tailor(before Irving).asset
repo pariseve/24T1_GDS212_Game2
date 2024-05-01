@@ -32,10 +32,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 120
-    y: 247
+    x: 217
+    y: 240
     width: 170
-    height: 115
+    height: 100
   isDragging: 0
   isSelected: 0
   sentence:
@@ -44,3 +44,5 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: 0}
   childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: 
