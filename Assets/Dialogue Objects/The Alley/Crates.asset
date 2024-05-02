@@ -16,10 +16,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 401
-    y: 242
-    width: 170
-    height: 115
+    x: 631
+    y: 331
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -28,6 +28,8 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: -6107827091204999934}
   childNode: {fileID: -4639716171494176061}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &-6107827091204999934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44,10 +46,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 218
-    y: 243
-    width: 170
-    height: 115
+    x: 448
+    y: 332
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -56,6 +58,8 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: 0}
   childNode: {fileID: -8500025950506847984}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &-4639716171494176061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72,10 +76,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 588
-    y: 244
-    width: 170
-    height: 115
+    x: 818
+    y: 333
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -85,6 +89,8 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: -8500025950506847984}
   childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

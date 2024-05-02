@@ -1,5 +1,185 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8411872284583536962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 7663
+    y: 161
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: Irving reads the letter quietly, he offers you a consoling glance.
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: -976192422390887451}
+  childNode: {fileID: -2588700012415308458}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-8094457751471508590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3918
+    y: 289
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: ???
+    text: Never met a cat whisperer before
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: -6785013602415250922}
+  childNode: {fileID: -7902416472020781916}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-7902416472020781916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4130
+    y: 286
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Deny talking to the cat
+  - Play it off
+  parentSentenceNode: {fileID: -8094457751471508590}
+  childSentenceNodes:
+  - {fileID: -7023233592058357275}
+  - {fileID: -1574129590780638605}
+--- !u!114 &-7556239271839710993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 9102
+    y: 173
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "You look to the stone wall, wondering where exactly the cat had fled to
+      and if you\u2019ll ever get the chance to speak with it again."
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 9132282457647566223}
+  childNode: {fileID: -1686725947491978219}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-7197302303542535900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 7660
+    y: 315
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: Irving shrugs nonchalantly.
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: -976192422390887451}
+  childNode: {fileID: 8852339554953864300}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-7023233592058357275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4342
+    y: 208
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: "That\u2019s not.. I wasn\u2019t talking to it.."
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: -7902416472020781916}
+  childNode: {fileID: 5996106785630902989}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &-6932394128777089675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16,8 +196,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1561
-    y: 171
+    x: 1086
+    y: 293
     width: 190
     height: 135
   isDragging: 0
@@ -29,6 +209,69 @@ MonoBehaviour:
   childSentenceNodes:
   - {fileID: 1980225751754419803}
   - {fileID: 5883592310411499360}
+--- !u!114 &-6785013602415250922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3721
+    y: 282
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: A peculiar man approaches you, eyes trailing up to catch a glimpse of the
+      cat's tail as it vanishes over the stone wall. He turns to face you, an amused
+      grin pulling at his lips.
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: 6708559480776172466}
+  childNode: {fileID: -8094457751471508590}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-5677024131307801270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 8501
+    y: 172
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: Irving nods in response, glancing at the stone wall and then behind himself
+      before returning his attention to you.
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: 3610510170396722008}
+  childNode: {fileID: 5514608725198861946}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &-5577251421742718101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,10 +288,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 654
-    y: 164
-    width: 170
-    height: 115
+    x: 3301
+    y: 286
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -57,7 +300,9 @@ MonoBehaviour:
       by the sudden change in its behaviour.
     characterSprite: {fileID: 0}
   parentNode: {fileID: 723575026978551249}
-  childNode: {fileID: 0}
+  childNode: {fileID: 6708559480776172466}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &-5485328061701348828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,18 +319,50 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1929
-    y: 173
-    width: 170
-    height: 115
+    x: 718
+    y: 295
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Mysterious Feline
     text: Who are you?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
   parentNode: {fileID: -1866842725309263538}
   childNode: {fileID: 713176382586579563}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-5074678196136051966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 5828
+    y: 300
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: You come all the way here to make friends with cats?
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: 1989289748234412398}
+  childNode: {fileID: 6329464744933188391}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &-4687886841546503046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,19 +379,82 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 109
-    y: 167
-    width: 170
-    height: 115
+    x: 2756
+    y: 289
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: 
     text: A chill races up your spine, how does this creature know of Henry when
       everyone else in the town seems to deny his very existence ?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
   parentNode: {fileID: 6818043812062254316}
   childNode: {fileID: 6432145468285679912}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-4418583438667674780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 6689
+    y: 407
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: "I\u2019m actually here looking for my brother. Do you know where I could
+      find him? His name is Henry Bromwell."
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: 447827549811860520}
+  childNode: {fileID: 2079664450361679314}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-4146577983968641821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4553
+    y: 378
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: You jest, allowing your frustration to fade at being interrupted.
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: -1574129590780638605}
+  childNode: {fileID: -3730760080539539939}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &-4069418010212455509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,18 +471,81 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -403
-    y: 106
-    width: 170
-    height: 115
+    x: 2244
+    y: 228
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: You
     text: What do you mean by that ?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
   parentNode: {fileID: -3111060504886462648}
   childNode: {fileID: 6818043812062254316}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-3827271506289891970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 7045
+    y: 242
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Irving
+    text: "I know a Henry Walker and a Henry Davies, can\u2019t say I\u2019ve heard
+      of a Bromwell though. Seems a bit too, well\u2026 proper, to live in Willowcroft."
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: 2079664450361679314}
+  childNode: {fileID: -2913695973323228716}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-3730760080539539939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4762
+    y: 380
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: He tips his head back and lets out an airy chuckle.
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: -4146577983968641821}
+  childNode: {fileID: -1176171255971200042}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &-3111060504886462648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,8 +562,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -608
-    y: 191
+    x: 2039
+    y: 313
     width: 190
     height: 135
   isDragging: 0
@@ -172,6 +575,68 @@ MonoBehaviour:
   childSentenceNodes:
   - {fileID: -4069418010212455509}
   - {fileID: -1882328146983085969}
+--- !u!114 &-2913695973323228716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 7240
+    y: 239
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Irving
+    text: "Are you sure you\u2019re in the right place?"
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: -3827271506289891970}
+  childNode: {fileID: -976192422390887451}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-2588700012415308458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 7874
+    y: 162
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Irving
+    text: "Apologies, Mister, this ought to be quite troubling for you. Though I
+      can\u2019t rightly say where your brother\u2019s got off to, I\u2019m here
+      to lend a hand if you\u2019ve a mind to it."
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: -8411872284583536962}
+  childNode: {fileID: 3610510170396722008}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &-1882328146983085969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,18 +653,20 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -407
-    y: 281
-    width: 170
-    height: 115
+    x: 2240
+    y: 403
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: 
     text: You continue to stare at the animal in bewilderment.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
   parentNode: {fileID: -3111060504886462648}
   childNode: {fileID: 1406510759618536868}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &-1866842725309263538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,19 +683,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2104
-    y: 174
-    width: 170
-    height: 115
+    x: 543
+    y: 296
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: 
     text: The cat remains seated as you draw closer, eyes never once leaving your
       form.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
   parentNode: {fileID: 536318701890703417}
   childNode: {fileID: -5485328061701348828}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &-1760384239763846504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,18 +714,172 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1181
-    y: 107
-    width: 170
-    height: 115
+    x: 1466
+    y: 229
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: You
     text: I'm _____.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
   parentNode: {fileID: 5883592310411499360}
   childNode: {fileID: -795493185983939827}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-1686725947491978219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 9309
+    y: 172
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "You shake your head in disbelief.. You\u2019ve only just arrived in this
+      town and now you're talking with cats. God knows where your brother could have
+      disappeared to in a place as strange as this."
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -7556239271839710993}
+  childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-1574129590780638605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4346
+    y: 378
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: "It\u2019s a rare talent."
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: -7902416472020781916}
+  childNode: {fileID: -4146577983968641821}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-1176171255971200042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4987
+    y: 298
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: ???
+    text: "You\u2019re a funny one, what\u2019s your name? Don\u2019t get a lot of
+      cityfolk \u2018round here."
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: -3730760080539539939}
+  childNode: {fileID: 6439827578450917093}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-976192422390887451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 7457
+    y: 243
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Show letter
+  - Insist
+  parentSentenceNode: {fileID: -2913695973323228716}
+  childSentenceNodes:
+  - {fileID: -8411872284583536962}
+  - {fileID: -7197302303542535900}
+--- !u!114 &-899696312174170244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4759
+    y: 208
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: He simpers as you stumble over your words.
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: 5996106785630902989}
+  childNode: {fileID: -1176171255971200042}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &-795493185983939827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -273,18 +896,20 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1001
-    y: 106
-    width: 170
-    height: 115
+    x: 1646
+    y: 228
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: 
     text: The cat regards you with intense eyes,
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
   parentNode: {fileID: -1760384239763846504}
   childNode: {fileID: 8606366273241143545}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &-377503246789446287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,18 +926,20 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -990
-    y: 262
-    width: 170
-    height: 115
+    x: 1657
+    y: 384
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: 
     text: The cat disregards your confusion and continues,
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
   parentNode: {fileID: 3116004565915776605}
   childNode: {fileID: 8606366273241143545}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -347,8 +974,73 @@ MonoBehaviour:
   - {fileID: -5577251421742718101}
   - {fileID: 5883592310411499360}
   - {fileID: 1980225751754419803}
+  - {fileID: 6708559480776172466}
+  - {fileID: -6785013602415250922}
+  - {fileID: -8094457751471508590}
+  - {fileID: -7902416472020781916}
+  - {fileID: -7023233592058357275}
+  - {fileID: 5996106785630902989}
+  - {fileID: -1574129590780638605}
+  - {fileID: -4146577983968641821}
+  - {fileID: -899696312174170244}
+  - {fileID: -3730760080539539939}
+  - {fileID: -1176171255971200042}
+  - {fileID: 6439827578450917093}
+  - {fileID: 6437073063876192038}
+  - {fileID: 1989289748234412398}
+  - {fileID: -5074678196136051966}
+  - {fileID: 6329464744933188391}
+  - {fileID: 5934095498614915342}
+  - {fileID: 6006781703491276549}
+  - {fileID: 447827549811860520}
+  - {fileID: 2079664450361679314}
+  - {fileID: -4418583438667674780}
+  - {fileID: -3827271506289891970}
+  - {fileID: -2913695973323228716}
+  - {fileID: -976192422390887451}
+  - {fileID: -8411872284583536962}
+  - {fileID: -7197302303542535900}
+  - {fileID: -2588700012415308458}
+  - {fileID: 8852339554953864300}
+  - {fileID: 6337709109070058844}
+  - {fileID: 3610510170396722008}
+  - {fileID: -5677024131307801270}
+  - {fileID: 5514608725198861946}
+  - {fileID: 9132282457647566223}
+  - {fileID: -7556239271839710993}
+  - {fileID: -1686725947491978219}
   nodeToDrawLineFrom: {fileID: 0}
   linePosition: {x: 0, y: 0}
+--- !u!114 &447827549811860520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 6469
+    y: 408
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Irving
+    text: "I won\u2019t argue with that, they do well keeping the mice out."
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: 6006781703491276549}
+  childNode: {fileID: -4418583438667674780}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &536318701890703417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -365,10 +1057,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2277
-    y: 173
-    width: 170
-    height: 115
+    x: 370
+    y: 295
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -379,6 +1071,8 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: 0}
   childNode: {fileID: -1866842725309263538}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &713176382586579563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -395,18 +1089,20 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1752
-    y: 176
-    width: 170
-    height: 115
+    x: 895
+    y: 298
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: 
     text: You take a moment to process what just happened.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
   parentNode: {fileID: -5485328061701348828}
   childNode: {fileID: -6932394128777089675}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &723575026978551249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -423,19 +1119,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 474
-    y: 166
-    width: 170
-    height: 115
+    x: 3121
+    y: 288
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: 
     text: Before you can interrogate the feline any further, its demeanour shifts.
       It hisses fiercely, tensing as the fur on its back bristles.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
   parentNode: {fileID: 6432145468285679912}
   childNode: {fileID: -5577251421742718101}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &1406510759618536868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -452,18 +1150,20 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -186
-    y: 287
-    width: 170
-    height: 115
+    x: 2461
+    y: 409
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: You
     text: "A talking cat\u2026 this isn\u2019t real"
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
   parentNode: {fileID: -1882328146983085969}
   childNode: {fileID: 6818043812062254316}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &1980225751754419803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -480,18 +1180,82 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1366
-    y: 260
-    width: 170
-    height: 115
+    x: 1281
+    y: 382
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: You
     text: Did.. did you just speak ??
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
   parentNode: {fileID: -6932394128777089675}
   childNode: {fileID: 3116004565915776605}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &1989289748234412398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 5623
+    y: 297
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: He flashes an easy smile, offering his hand for you to shake. You take
+      it.
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: 6437073063876192038}
+  childNode: {fileID: -5074678196136051966}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &2079664450361679314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 6830
+    y: 247
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "An unreadable expression flashes over his features before it\u2019s replaced
+      by seemingly genuine confusion, a beat passes until he finally responds."
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: -4418583438667674780}
+  childNode: {fileID: -3827271506289891970}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &3116004565915776605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -508,18 +1272,82 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1175
-    y: 260
-    width: 170
-    height: 115
+    x: 1472
+    y: 382
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: 
     text: "You\u2019re practically gawking at the small beast sat before you."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
   parentNode: {fileID: 1980225751754419803}
   childNode: {fileID: -377503246789446287}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &3610510170396722008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 8300
+    y: 174
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: Thank you, I appreciate that.
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: 6337709109070058844}
+  childNode: {fileID: -5677024131307801270}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5514608725198861946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 8700
+    y: 171
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Irving
+    text: "I\u2019m afraid I\u2019ll have to part with you here, have some errands
+      to attend to. I work in the tailor\u2019s just next door, if you ever need
+      to find me, that's where I\u2019ll be."
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: -5677024131307801270}
+  childNode: {fileID: 9132282457647566223}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &5883592310411499360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -536,18 +1364,171 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1367
-    y: 107
-    width: 170
-    height: 115
+    x: 1280
+    y: 229
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: 
     text: You quickly brush off your initial shock and respond tentatively
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
   parentNode: {fileID: -6932394128777089675}
   childNode: {fileID: -1760384239763846504}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5934095498614915342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 6258
+    y: 229
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: "No, I\u2019m here for my brother, Henry Bromwell. Do you know where I
+      might find him?"
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: 6329464744933188391}
+  childNode: {fileID: 2079664450361679314}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5996106785630902989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4562
+    y: 200
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "you feel your neck flush red with humiliation as you realise there\u2019s
+      no explaining yourself out of this."
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: -7023233592058357275}
+  childNode: {fileID: -899696312174170244}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &6006781703491276549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 6258
+    y: 404
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: Of course, they make great company.
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: 6329464744933188391}
+  childNode: {fileID: 447827549811860520}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &6329464744933188391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 6039
+    y: 297
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - I'm here for my brother
+  - I'm here for the cats
+  parentSentenceNode: {fileID: -5074678196136051966}
+  childSentenceNodes:
+  - {fileID: 5934095498614915342}
+  - {fileID: 6006781703491276549}
+--- !u!114 &6337709109070058844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 8072
+    y: 308
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "If I happen across him, I\u2019ll be sure to let you know."
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: 8852339554953864300}
+  childNode: {fileID: 3610510170396722008}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &6432145468285679912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -564,18 +1545,110 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 292
-    y: 166
-    width: 170
-    height: 115
+    x: 2939
+    y: 288
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: You
     text: What do you know of my brother ? Where is he ?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
   parentNode: {fileID: -4687886841546503046}
   childNode: {fileID: 723575026978551249}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &6437073063876192038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 5411
+    y: 296
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Irving
+    text: Irving.
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: 6439827578450917093}
+  childNode: {fileID: 1989289748234412398}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &6439827578450917093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 5205
+    y: 295
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: "My name\u2019s ____, and you are?"
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: -1176171255971200042}
+  childNode: {fileID: 6437073063876192038}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &6708559480776172466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3507
+    y: 284
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: ???
+    text: "Who\u2019re you talkin\u2019 to..?"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -5577251421742718101}
+  childNode: {fileID: -6785013602415250922}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &6818043812062254316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -592,19 +1665,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -83
-    y: 163
-    width: 170
-    height: 115
+    x: 2564
+    y: 285
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Mysterious Feline
     text: You must leave this at once, lest you wish to meet the same fate as your
       brother.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
   parentNode: {fileID: 1406510759618536868}
   childNode: {fileID: -4687886841546503046}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &8606366273241143545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -621,15 +1696,79 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -783
-    y: 194
-    width: 170
-    height: 115
+    x: 1864
+    y: 316
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Mysterious Feline
     text: You were foolish to come here.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 35b349fe7eed7e04d9fb6f9d65511f05, type: 3}
   parentNode: {fileID: -377503246789446287}
   childNode: {fileID: -3111060504886462648}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &8852339554953864300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 7864
+    y: 320
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Irving
+    text: "I\u2019ll take your word for it then. If he is here, I\u2019ve not met
+      him."
+    characterSprite: {fileID: 21300000, guid: 648ae0a48ad6a2d4288bf48f04abf081, type: 3}
+  parentNode: {fileID: -7197302303542535900}
+  childNode: {fileID: 6337709109070058844}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &9132282457647566223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 8899
+    y: 173
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: Irving smiles apologetically before turning and exiting the alley, leaving
+      you alone to contemplate everything that has happened.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 5514608725198861946}
+  childNode: {fileID: -7556239271839710993}
+  isExternalFunc: 0
+  externalFunctionName: 

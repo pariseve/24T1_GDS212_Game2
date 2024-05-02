@@ -16,8 +16,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 654
-    y: 234
+    x: 876
+    y: 344
     width: 190
     height: 135
   isDragging: 0
@@ -47,8 +47,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 453
-    y: 231
+    x: 675
+    y: 341
     width: 190
     height: 135
   isDragging: 0
@@ -98,10 +98,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 857
-    y: 235
+    x: 1079
+    y: 345
     width: 190
-    height: 135
+    height: 155
   isDragging: 0
   isSelected: 0
   sentence:
@@ -111,8 +111,8 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: -5959914045717521196}
   childNode: {fileID: 0}
-  isExternalFunc: 0
-  externalFunctionName: 
+  isExternalFunc: 1
+  externalFunctionName: function
 --- !u!114 &8708190029835636642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,8 +129,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 50
-    y: 227
+    x: 272
+    y: 337
     width: 190
     height: 135
   isDragging: 0
@@ -159,8 +159,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 252
-    y: 230
+    x: 474
+    y: 340
     width: 190
     height: 135
   isDragging: 0

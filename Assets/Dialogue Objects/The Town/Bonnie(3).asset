@@ -16,8 +16,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 614
-    y: 521
+    x: -306
+    y: 587
     width: 190
     height: 135
   isDragging: 0
@@ -25,7 +25,7 @@ MonoBehaviour:
   sentence:
     characterName: You
     text: My apologies for bothering you, I will take my leave.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: -3245684684511261240}
   childNode: {fileID: -7985878697891385033}
   isExternalFunc: 0
@@ -46,8 +46,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 820
-    y: 533
+    x: -100
+    y: 599
     width: 190
     height: 135
   isDragging: 0
@@ -55,7 +55,7 @@ MonoBehaviour:
   sentence:
     characterName: Bonnie
     text: Best of luck with ya search, Mister.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: -8392979635673012572}
   childNode: {fileID: 0}
   isExternalFunc: 0
@@ -76,8 +76,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1839
-    y: 241
+    x: 919
+    y: 307
     width: 190
     height: 135
   isDragging: 0
@@ -85,7 +85,7 @@ MonoBehaviour:
   sentence:
     characterName: Bonnie
     text: Pleasure doin' business with ya.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: -6865804122121502429}
   childNode: {fileID: 2314530081425064261}
   isExternalFunc: 0
@@ -106,8 +106,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1636
-    y: 400
+    x: 716
+    y: 466
     width: 190
     height: 135
   isDragging: 0
@@ -115,7 +115,7 @@ MonoBehaviour:
   sentence:
     characterName: You
     text: Let me think on it.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: -279476639362393069}
   childNode: {fileID: -3153738116429862554}
   isExternalFunc: 0
@@ -136,8 +136,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1641
-    y: 241
+    x: 721
+    y: 307
     width: 190
     height: 135
   isDragging: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
     characterName: 
     text: You begrudgingly hand over the requested amount to the girl, in return
       she gives you the candies.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: -279476639362393069}
   childNode: {fileID: -7503718443182412190}
   isExternalFunc: 0
@@ -167,8 +167,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 407
-    y: 421
+    x: -513
+    y: 487
     width: 190
     height: 135
   isDragging: 0
@@ -196,8 +196,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1841
-    y: 401
+    x: 921
+    y: 467
     width: 190
     height: 135
   isDragging: 0
@@ -205,7 +205,7 @@ MonoBehaviour:
   sentence:
     characterName: 
     text: Bonnie shrugs nonchalantly,
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: -7297617606575834741}
   childNode: {fileID: 5321560126785600132}
   isExternalFunc: 0
@@ -226,8 +226,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1225
-    y: 320
+    x: 305
+    y: 386
     width: 190
     height: 135
   isDragging: 0
@@ -236,7 +236,7 @@ MonoBehaviour:
     characterName: 
     text: "The alleged \u2018discounted price\u2019 seems awfully similar to the
       amount being advertised at the front of the stall."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: -1767037665136087681}
   childNode: {fileID: -279476639362393069}
   isExternalFunc: 0
@@ -257,8 +257,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 189
-    y: 421
+    x: -731
+    y: 487
     width: 190
     height: 135
   isDragging: 0
@@ -266,7 +266,7 @@ MonoBehaviour:
   sentence:
     characterName: Bonnie
     text: Hello again, Mister.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: 0}
   childNode: {fileID: -3245684684511261240}
   isExternalFunc: 0
@@ -287,8 +287,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1020
-    y: 323
+    x: 100
+    y: 389
     width: 190
     height: 135
   isDragging: 0
@@ -296,7 +296,7 @@ MonoBehaviour:
   sentence:
     characterName: Bonnie
     text: O' course, Mister. Got one bag of lemon drops, only a shilling.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: 2972106662541028065}
   childNode: {fileID: -2551653631575560636}
   isExternalFunc: 0
@@ -317,8 +317,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1427
-    y: 322
+    x: 507
+    y: 388
     width: 190
     height: 135
   isDragging: 0
@@ -376,8 +376,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 613
-    y: 328
+    x: -307
+    y: 394
     width: 190
     height: 135
   isDragging: 0
@@ -385,7 +385,7 @@ MonoBehaviour:
   sentence:
     characterName: You
     text: Is that discount still on offer?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: -3245684684511261240}
   childNode: {fileID: 2972106662541028065}
   isExternalFunc: 0
@@ -406,10 +406,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2039
-    y: 240
+    x: 1119
+    y: 306
     width: 190
-    height: 135
+    height: 155
   isDragging: 0
   isSelected: 0
   sentence:
@@ -419,8 +419,8 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: -7503718443182412190}
   childNode: {fileID: 0}
-  isExternalFunc: 0
-  externalFunctionName: 
+  isExternalFunc: 1
+  externalFunctionName: function
 --- !u!114 &2972106662541028065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,8 +437,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 821
-    y: 327
+    x: -99
+    y: 393
     width: 190
     height: 135
   isDragging: 0
@@ -447,7 +447,7 @@ MonoBehaviour:
     characterName: 
     text: Bonnie grins, eyes narrowing. Her expression feels predatory, it prompts
       a deep discomfort to prickle at your skin.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: 1378748764479463931}
   childNode: {fileID: -1767037665136087681}
   isExternalFunc: 0
@@ -468,8 +468,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2045
-    y: 402
+    x: 1125
+    y: 468
     width: 190
     height: 135
   isDragging: 0
@@ -477,7 +477,7 @@ MonoBehaviour:
   sentence:
     characterName: Bonnie
     text: Whatever you say, I'll be waitin' here if ya change ya mind.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6be4ac0209c02774abd94b3cdd394d9a, type: 3}
   parentNode: {fileID: -3153738116429862554}
   childNode: {fileID: 0}
   isExternalFunc: 0

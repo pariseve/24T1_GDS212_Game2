@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 94849286}
   m_Layer: 0
   m_Name: Children Trigger
-  m_TagString: Untagged
+  m_TagString: TalkableObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -222,7 +222,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1312651657}
         m_TargetAssemblyTypeName: TownScript, Assembly-CSharp
-        m_MethodName: childrenInitialComplete
+        m_MethodName: ChildrenInitialComplete
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -233,6 +233,21 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   events2:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1312651657}
+        m_TargetAssemblyTypeName: TownScript, Assembly-CSharp
+        m_MethodName: AlleyTriggerEnabled
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  events3:
     m_PersistentCalls:
       m_Calls: []
   useAltDialogue: 0
@@ -250,7 +265,7 @@ GameObject:
   - component: {fileID: 198648616}
   m_Layer: 0
   m_Name: Can't go that way Trigger
-  m_TagString: Untagged
+  m_TagString: GoNorth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -337,6 +352,9 @@ MonoBehaviour:
   events2:
     m_PersistentCalls:
       m_Calls: []
+  events3:
+    m_PersistentCalls:
+      m_Calls: []
   useAltDialogue: 0
   useFinalDialogue: 0
 --- !u!1 &326395291
@@ -352,7 +370,7 @@ GameObject:
   - component: {fileID: 326395293}
   m_Layer: 0
   m_Name: The Tailor
-  m_TagString: Untagged
+  m_TagString: LookableObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -392,6 +410,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   events2:
+    m_PersistentCalls:
+      m_Calls: []
+  events3:
     m_PersistentCalls:
       m_Calls: []
   useAltDialogue: 0
@@ -465,7 +486,7 @@ GameObject:
   - component: {fileID: 421421586}
   m_Layer: 0
   m_Name: Bonnie Trigger
-  m_TagString: Untagged
+  m_TagString: TalkableObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -551,7 +572,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1312651657}
         m_TargetAssemblyTypeName: TownScript, Assembly-CSharp
-        m_MethodName: bonnieIntialComplete
+        m_MethodName: BonnieIntialComplete
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -563,9 +584,52 @@ MonoBehaviour:
         m_CallState: 2
   events2:
     m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1312651657}
+        m_TargetAssemblyTypeName: TownScript, Assembly-CSharp
+        m_MethodName: ChildrenFinalInteraction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1312651657}
+        m_TargetAssemblyTypeName: TownScript, Assembly-CSharp
+        m_MethodName: BonnieLeaves
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  events3:
+    m_PersistentCalls:
       m_Calls: []
   useAltDialogue: 0
   useFinalDialogue: 0
+--- !u!4 &426181489 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2669723025982650199, guid: 1ce9bb068dc1a0049abbe21bc0df3fc5, type: 3}
+  m_PrefabInstance: {fileID: 6778372849408847080}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &426181490 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1103665176994432339, guid: 1ce9bb068dc1a0049abbe21bc0df3fc5, type: 3}
+  m_PrefabInstance: {fileID: 6778372849408847080}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db257d1d3dd2d64fbd626082ccd2314, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,6 +1083,7 @@ Transform:
   - {fileID: 6766986362061355368}
   - {fileID: 1450023303}
   - {fileID: 1312651658}
+  - {fileID: 426181489}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &829890218
@@ -1078,7 +1143,7 @@ GameObject:
   - component: {fileID: 845733187}
   m_Layer: 0
   m_Name: Alley Trigger
-  m_TagString: SceneTrigger
+  m_TagString: GoWest
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1386,7 +1451,7 @@ GameObject:
   - component: {fileID: 1213320499}
   m_Layer: 0
   m_Name: Church Trigger
-  m_TagString: SceneTrigger
+  m_TagString: GoNorth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1538,6 +1603,15 @@ MonoBehaviour:
   bonnieDialogueTrigger: {fileID: 421421586}
   childrenDialogueTrigger: {fileID: 94849286}
   stallDialogueTrigger: {fileID: 1890818543}
+  theTailorTrigger: {fileID: 326395293}
+  stallImage: {fileID: 980394157}
+  emptyStall: {fileID: 21300000, guid: ce57a7c119ac4a4428b276c80632a041, type: 3}
+  bonnieTrigger: {fileID: 421421583}
+  bonnieImage: {fileID: 1383396650}
+  childrenImage: {fileID: 1429628033}
+  childrenTrigger: {fileID: 94849283}
+  churchTrigger: {fileID: 1213320496}
+  alleyTrigger: {fileID: 845733183}
 --- !u!4 &1312651658
 Transform:
   m_ObjectHideFlags: 0
@@ -1862,7 +1936,7 @@ GameObject:
   - component: {fileID: 1890818543}
   m_Layer: 0
   m_Name: Stall Trigger
-  m_TagString: Untagged
+  m_TagString: GoNorth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1947,6 +2021,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   events2:
+    m_PersistentCalls:
+      m_Calls: []
+  events3:
     m_PersistentCalls:
       m_Calls: []
   useAltDialogue: 0
@@ -2042,7 +2119,7 @@ GameObject:
   - component: {fileID: 2077879016}
   m_Layer: 0
   m_Name: Inn Trigger
-  m_TagString: SceneTrigger
+  m_TagString: GoNorth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2430,6 +2507,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7931677751135369415, guid: 84a74c8af8080f84f9bb34ca2116f21b, type: 3}
+      propertyPath: cursorManager
+      value: 
+      objectReference: {fileID: 426181490}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2440,6 +2521,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5360281016283532357, guid: 84a74c8af8080f84f9bb34ca2116f21b, type: 3}
   m_PrefabInstance: {fileID: 6766986362061355367}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6778372849408847080
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 653287946}
+    m_Modifications:
+    - target: {fileID: 2669723025982650199, guid: 1ce9bb068dc1a0049abbe21bc0df3fc5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669723025982650199, guid: 1ce9bb068dc1a0049abbe21bc0df3fc5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669723025982650199, guid: 1ce9bb068dc1a0049abbe21bc0df3fc5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669723025982650199, guid: 1ce9bb068dc1a0049abbe21bc0df3fc5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669723025982650199, guid: 1ce9bb068dc1a0049abbe21bc0df3fc5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669723025982650199, guid: 1ce9bb068dc1a0049abbe21bc0df3fc5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669723025982650199, guid: 1ce9bb068dc1a0049abbe21bc0df3fc5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669723025982650199, guid: 1ce9bb068dc1a0049abbe21bc0df3fc5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669723025982650199, guid: 1ce9bb068dc1a0049abbe21bc0df3fc5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669723025982650199, guid: 1ce9bb068dc1a0049abbe21bc0df3fc5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790340660535896610, guid: 1ce9bb068dc1a0049abbe21bc0df3fc5, type: 3}
+      propertyPath: m_Name
+      value: Cursor Manager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ce9bb068dc1a0049abbe21bc0df3fc5, type: 3}
 --- !u!1001 &8415223739331617237
 PrefabInstance:
   m_ObjectHideFlags: 0
