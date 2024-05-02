@@ -1,5 +1,96 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9184970269588209913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3172
+    y: -509
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: "His name is Henry, my brother. He\u2019s a tad taller than me, dark hair
+      and blue eyes. Have you seen him around here ?"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 6865932356465158659}
+  childNode: {fileID: 6007466717561915448}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-9015780205244010524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3072
+    y: 1124
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: The children beam with exhilaration, their prior uncertainty seeming to
+      disappear completely. The smaller boy, Timothy, finally chimes in.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 5742135220830742635}
+  childNode: {fileID: 8542384012126823200}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-8767151750960636937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2914
+    y: 438
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Ask what they're doing
+  - Ask about your brother
+  parentSentenceNode: {fileID: 425646331129766918}
+  childSentenceNodes:
+  - {fileID: 8516830555496662367}
+  - {fileID: -2578941566040879355}
 --- !u!114 &-8100893643679083233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16,10 +107,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 66
-    y: 220
-    width: 170
-    height: 100
+    x: 519
+    y: 237
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -46,10 +137,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2070
-    y: 333
-    width: 170
-    height: 100
+    x: 2522
+    y: 388
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -77,10 +168,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1893
-    y: 332
-    width: 170
-    height: 100
+    x: 2339
+    y: 394
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -108,10 +199,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2241
-    y: 214
-    width: 170
-    height: 100
+    x: 2721
+    y: 237
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -139,10 +230,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 792
-    y: 219
-    width: 170
-    height: 100
+    x: 1245
+    y: 236
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -152,6 +243,37 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: -4053530319164480196}
   childNode: {fileID: 7234973188897685481}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-5755341740757775892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2753
+    y: 858
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: "His name is Henry, my brother. He\u2019s a tad taller than me, dark hair
+      and blue eyes. Have you seen him around here ?"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 8361780318205836360}
+  childNode: {fileID: -3081544756358843425}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &-5125281290341287240
@@ -170,10 +292,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -478
-    y: 223
-    width: 170
-    height: 100
+    x: -25
+    y: 240
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -184,6 +306,67 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: 0}
   childNode: {fileID: -205429834911266034}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-4668444585000959824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3067
+    y: 707
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: The little girl, Mary, pipes up excitedly, clutching the wooden sword close
+      to her chest.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 8516830555496662367}
+  childNode: {fileID: -4428716989411406044}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-4428716989411406044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3068
+    y: 843
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Mary
+    text: "W-we\u2019re playing knights, mister. "
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -4668444585000959824}
+  childNode: {fileID: 5742135220830742635}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &-4206369256236280595
@@ -202,10 +385,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1894
-    y: 216
-    width: 170
-    height: 100
+    x: 2352
+    y: 234
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -233,10 +416,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2070
-    y: 215
-    width: 170
-    height: 100
+    x: 2538
+    y: 233
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -264,10 +447,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 616
-    y: 220
-    width: 170
-    height: 100
+    x: 1069
+    y: 237
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -294,10 +477,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1854
-    y: 468
-    width: 170
-    height: 100
+    x: 2752
+    y: 1723
+    width: 190
+    height: 155
   isDragging: 0
   isSelected: 0
   sentence:
@@ -306,8 +489,8 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: -3713746556510904092}
   childNode: {fileID: 0}
-  isExternalFunc: 0
-  externalFunctionName: 
+  isExternalFunc: 1
+  externalFunctionName: initialComplete
 --- !u!114 &-3713746556510904092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,17 +507,17 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1679
-    y: 467
-    width: 170
-    height: 100
+    x: 2751
+    y: 1582
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: You
     text: Well then, I won't bother you further.
     characterSprite: {fileID: 0}
-  parentNode: {fileID: -1614179135254474279}
+  parentNode: {fileID: 7587973636847492179}
   childNode: {fileID: -3899489638778647942}
   isExternalFunc: 0
   externalFunctionName: 
@@ -354,10 +537,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1151
-    y: 220
-    width: 170
-    height: 100
+    x: 1604
+    y: 237
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -367,6 +550,38 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: 7234973188897685481}
   childNode: {fileID: -43308664308943875}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-3437132615185077428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3185
+    y: -1080
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: You feel a sense of unease pull at your stomach at the sudden shift in
+      their demeanour. However given the discomfort the children exhibit, you decide
+      it best not to press further.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 142613748991813495}
+  childNode: {fileID: 7519038896293069787}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &-3225877342406068012
@@ -385,10 +600,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1717
-    y: 215
-    width: 170
-    height: 100
+    x: 2168
+    y: 241
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -398,6 +613,100 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: -1614179135254474279}
   childNode: {fileID: -4206369256236280595}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-3081544756358843425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2751
+    y: 1004
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: 'The previous air of excitement is once again replaced with apprehension
+      as the children return to their nervous disposition, glancing between themselves.
+      The previous air of excitement is once again replaced with apprehension as
+      the children return to their nervous disposition, glancing between themselves. '
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -5755341740757775892}
+  childNode: {fileID: 8213279445819415001}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-2578941566040879355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2746
+    y: 573
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: I actually happen to be looking for someone, would you be able to help
+      me?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -8767151750960636937}
+  childNode: {fileID: 8361780318205836360}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-2193258719308130438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2754
+    y: 1298
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Harold
+    text: "We haven\u2019t seen your brother, mister."
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 8213279445819415001}
+  childNode: {fileID: 4069476484915701214}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &-1614179135254474279
@@ -416,23 +725,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1512
-    y: 215
+    x: 1965
+    y: 232
     width: 190
-    height: 115
+    height: 155
   isDragging: 0
   isSelected: 0
   answers:
   - Ask what they're doing
   - Ask about your brother
   - Ask to walk past them to the alleyway
-  - Leave.
   parentSentenceNode: {fileID: -43308664308943875}
   childSentenceNodes:
   - {fileID: 8855863638945958199}
   - {fileID: -3225877342406068012}
   - {fileID: 3158425170149217881}
-  - {fileID: -3713746556510904092}
 --- !u!114 &-1084118787045174163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -449,10 +756,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1876
-    y: 84
-    width: 170
-    height: 100
+    x: 2344
+    y: 82
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -462,6 +769,37 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: 8855863638945958199}
   childNode: {fileID: 1413788345160298813}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-648393482836738751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3458
+    y: -644
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: The other children nod excitedly in agreement, eyes lighting up at the
+      idea.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 3744915626539858039}
+  childNode: {fileID: 7519038896293069787}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &-205429834911266034
@@ -480,10 +818,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -300
-    y: 219
-    width: 170
-    height: 100
+    x: 153
+    y: 236
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -510,10 +848,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1325
-    y: 218
-    width: 170
-    height: 100
+    x: 1778
+    y: 235
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -569,6 +907,35 @@ MonoBehaviour:
   - {fileID: 2132637091306930600}
   - {fileID: 4996804151833783246}
   - {fileID: -3899489638778647942}
+  - {fileID: -8767151750960636937}
+  - {fileID: 8516830555496662367}
+  - {fileID: -2578941566040879355}
+  - {fileID: -4668444585000959824}
+  - {fileID: -4428716989411406044}
+  - {fileID: 8361780318205836360}
+  - {fileID: 5742135220830742635}
+  - {fileID: -9015780205244010524}
+  - {fileID: 8542384012126823200}
+  - {fileID: 7587973636847492179}
+  - {fileID: -5755341740757775892}
+  - {fileID: -3081544756358843425}
+  - {fileID: 8213279445819415001}
+  - {fileID: -2193258719308130438}
+  - {fileID: 4069476484915701214}
+  - {fileID: 8170910179813162411}
+  - {fileID: 8287297664667872163}
+  - {fileID: 8041095449276168978}
+  - {fileID: 4394942116774420103}
+  - {fileID: 3744915626539858039}
+  - {fileID: -648393482836738751}
+  - {fileID: 6865932356465158659}
+  - {fileID: -9184970269588209913}
+  - {fileID: 6007466717561915448}
+  - {fileID: 1579215398065981807}
+  - {fileID: 142613748991813495}
+  - {fileID: -3437132615185077428}
+  - {fileID: 7519038896293069787}
+  - {fileID: 2612013505491754815}
   nodeToDrawLineFrom: {fileID: 0}
   linePosition: {x: 0, y: 0}
 --- !u!114 &83203303055541594
@@ -587,10 +954,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2388
-    y: 83
-    width: 170
-    height: 100
+    x: 2911
+    y: 77
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -600,6 +967,36 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: 8755424011018982301}
   childNode: {fileID: 5611168868657853099}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &142613748991813495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3184
+    y: -937
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Harold
+    text: "We haven\u2019t seen your brother, mister."
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 1579215398065981807}
+  childNode: {fileID: -3437132615185077428}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &425646331129766918
@@ -618,10 +1015,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2245
-    y: 335
-    width: 170
-    height: 100
+    x: 2717
+    y: 391
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -630,7 +1027,7 @@ MonoBehaviour:
       idea.
     characterSprite: {fileID: 0}
   parentNode: {fileID: -7421292671753619107}
-  childNode: {fileID: 0}
+  childNode: {fileID: -8767151750960636937}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &1413788345160298813
@@ -649,10 +1046,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2044
-    y: 84
-    width: 170
-    height: 100
+    x: 2535
+    y: 81
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -661,6 +1058,36 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: -1084118787045174163}
   childNode: {fileID: 8755424011018982301}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &1579215398065981807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3185
+    y: -799
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Timothy
+    text: Um.. I think-
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 6007466717561915448}
+  childNode: {fileID: 142613748991813495}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &2132637091306930600
@@ -679,10 +1106,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2585
-    y: 215
-    width: 170
-    height: 100
+    x: 3103
+    y: 240
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -693,6 +1120,36 @@ MonoBehaviour:
   childNode: {fileID: 4996804151833783246}
   isExternalFunc: 0
   externalFunctionName: 
+--- !u!114 &2612013505491754815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3978
+    y: -606
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: The children bid you farewell as you leave them to their own devices.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 7519038896293069787}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: initialComplete
 --- !u!114 &3158425170149217881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -709,10 +1166,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1716
-    y: 332
-    width: 170
-    height: 100
+    x: 2147
+    y: 392
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -739,10 +1196,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2729
-    y: 83
-    width: 170
-    height: 100
+    x: 3292
+    y: 77
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -751,7 +1208,38 @@ MonoBehaviour:
       time.
     characterSprite: {fileID: 0}
   parentNode: {fileID: 5611168868657853099}
-  childNode: {fileID: 0}
+  childNode: {fileID: 8170910179813162411}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &3744915626539858039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3454
+    y: -505
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Harold
+    text: But, I guess.. maybe if we had some sweets then we could find somewhere
+      else to play.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 4394942116774420103}
+  childNode: {fileID: -648393482836738751}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &3928517868054781943
@@ -770,10 +1258,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 434
-    y: 219
-    width: 170
-    height: 100
+    x: 887
+    y: 236
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -782,6 +1270,69 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: 6627035395681282542}
   childNode: {fileID: -4053530319164480196}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &4069476484915701214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2758
+    y: 1444
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: You feel a sense of unease pull at your stomach at the sudden shift in
+      their demeanour. However given the discomfort the children exhibit, you decide
+      it best not to press further.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -2193258719308130438}
+  childNode: {fileID: -3713746556510904092}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &4394942116774420103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3449
+    y: -366
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Harold
+    text: "We\u2019re playing here right now so you\u2019ll have to wait until we\u2019re
+      done.."
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 8041095449276168978}
+  childNode: {fileID: 3744915626539858039}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &4996804151833783246
@@ -800,19 +1351,20 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2757
-    y: 216
-    width: 170
-    height: 100
+    x: 3553
+    y: 167
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: 
-    text: You find the sudden shift in demeanour suspicious, however given the discomfort
-      the children exhibit, you decide it best not to press further.
+    text: You feel a sense of unease pull at your stomach at the sudden shift in
+      their demeanour. However given the discomfort the children exhibit, you decide
+      it best not to press further.
     characterSprite: {fileID: 0}
   parentNode: {fileID: 2132637091306930600}
-  childNode: {fileID: 0}
+  childNode: {fileID: 7519038896293069787}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &5611168868657853099
@@ -831,10 +1383,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2558
-    y: 82
-    width: 170
-    height: 100
+    x: 3101
+    y: 76
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -843,6 +1395,68 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: 83203303055541594}
   childNode: {fileID: 3497056622718516778}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5742135220830742635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3068
+    y: 982
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Harold
+    text: "Mary usually isn\u2019t allowed to play with us but her sister is out
+      today, so she gets to be a knight too."
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -4428716989411406044}
+  childNode: {fileID: -9015780205244010524}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &6007466717561915448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3174
+    y: -651
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: 'The previous air of excitement is once again replaced with apprehension
+      as the children return to their nervous disposition, glancing between themselves. '
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -9184970269588209913}
+  childNode: {fileID: 1579215398065981807}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &6622926506108552119
@@ -861,10 +1475,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -118
-    y: 222
-    width: 170
-    height: 100
+    x: 335
+    y: 239
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -892,10 +1506,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 247
-    y: 220
-    width: 170
-    height: 100
+    x: 700
+    y: 237
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -905,6 +1519,37 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: -8100893643679083233}
   childNode: {fileID: 3928517868054781943}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &6865932356465158659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3167
+    y: -366
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: The children exchange excited looks, nodding their heads in unison. You
+      smile at their enthusiasm.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 8287297664667872163}
+  childNode: {fileID: -9184970269588209913}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &6891127499625385786
@@ -923,10 +1568,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2412
-    y: 215
-    width: 170
-    height: 100
+    x: 2910
+    y: 242
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -953,10 +1598,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 973
-    y: 220
-    width: 170
-    height: 100
+    x: 1426
+    y: 237
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -965,6 +1610,278 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
   parentNode: {fileID: -6003654960872974579}
   childNode: {fileID: -3650398213442240881}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7519038896293069787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3725
+    y: -614
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: Well then, I won't bother you further.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 4996804151833783246}
+  childNode: {fileID: 2612013505491754815}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7587973636847492179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3080
+    y: 1410
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: Unfortunately, I have other business I must attend to. Perhaps another
+      time.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 8542384012126823200}
+  childNode: {fileID: -3713746556510904092}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &8041095449276168978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3440
+    y: -221
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: May I pass by to the alley beyond ?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 8170910179813162411}
+  childNode: {fileID: 4394942116774420103}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &8170910179813162411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3285
+    y: -74
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Ask about your brother
+  - Ask to walk past them
+  parentSentenceNode: {fileID: 3497056622718516778}
+  childSentenceNodes:
+  - {fileID: 8287297664667872163}
+  - {fileID: 8041095449276168978}
+--- !u!114 &8213279445819415001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2748
+    y: 1153
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Timothy
+    text: Um.. I think-
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -3081544756358843425}
+  childNode: {fileID: -2193258719308130438}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &8287297664667872163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3166
+    y: -221
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: I actually happen to be looking for someone, would you be able to help
+      me?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 8170910179813162411}
+  childNode: {fileID: 6865932356465158659}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &8361780318205836360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2746
+    y: 713
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: The children exchange excited looks, nodding their heads in unison. You
+      smile at their enthusiasm.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -2578941566040879355}
+  childNode: {fileID: -5755341740757775892}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &8516830555496662367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3064
+    y: 572
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: You
+    text: And what are you young folk up to this evening?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -8767151750960636937}
+  childNode: {fileID: -4668444585000959824}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &8542384012126823200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3079
+    y: 1262
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Timothy
+    text: Would.. would you like to play with us, mister ?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -9015780205244010524}
+  childNode: {fileID: 7587973636847492179}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &8755424011018982301
@@ -983,10 +1900,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2217
-    y: 81
-    width: 170
-    height: 100
+    x: 2721
+    y: 78
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
@@ -1014,10 +1931,10 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1706
-    y: 86
-    width: 170
-    height: 100
+    x: 2155
+    y: 92
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:

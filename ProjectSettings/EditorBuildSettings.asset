@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ChurchScene.unity
     guid: dc23292d59911f1478edb8417260a734
   - enabled: 1
+    path: Assets/Scenes/AlleyScene2.unity
+    guid: bcf6941bf8d27e34c80e765cebde5775
+  - enabled: 1
     path: Assets/Scenes/AlleyScene.unity
     guid: 5defdbc85a216614fbee386b0c9deb37
   m_configObjects: {}

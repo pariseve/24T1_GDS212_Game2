@@ -87,6 +87,7 @@ namespace cherrydev
         public void EnableDialogSentencePanel()
         {
             dialogSentensePanel.ResetDialogText();
+            dialogSentensePanel.ActivateCharacterImage(true);
 
             ActiveGameObject(dialogSentensePanel.gameObject, true);
         }
@@ -96,6 +97,7 @@ namespace cherrydev
         /// </summary>
         public void DisableDialogSentencePanel()
         {
+            dialogSentensePanel.ActivateCharacterImage(false);
             ActiveGameObject(dialogSentensePanel.gameObject, false);
         }
 

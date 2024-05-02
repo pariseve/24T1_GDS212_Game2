@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
-  m_Name: The Tailor(before Irving)
+  m_Name: Stall(2)
   m_EditorClassIdentifier: 
   nodesList:
-  - {fileID: 1784443284710107914}
+  - {fileID: 326094763888680598}
   nodeToDrawLineFrom: {fileID: 0}
   linePosition: {x: 0, y: 0}
---- !u!114 &1784443284710107914
+--- !u!114 &326094763888680598
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -32,15 +32,16 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 217
-    y: 240
-    width: 170
-    height: 100
+    x: 709
+    y: 393
+    width: 190
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: 
-    text: Your clothes do not require tailoring.
+    text: The stall is all sold out, however townsfolk continue to hover and banter
+      with the stall owner.
     characterSprite: {fileID: 0}
   parentNode: {fileID: 0}
   childNode: {fileID: 0}

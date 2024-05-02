@@ -38,7 +38,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
-  m_Name: The Tailor (after irving)
+  m_Name: The Tailor(2)
   m_EditorClassIdentifier: 
   nodesList:
   - {fileID: -97045788681116558}

@@ -55,5 +55,18 @@ namespace cherrydev
         {
             dialogText.maxVisibleCharacters++;
         }
+
+        public void ActivateCharacterImage(bool isActive)
+        {
+            if (dialogCharacterImage != null)
+            {
+                dialogCharacterImage.gameObject.SetActive(isActive);
+            }
+            else
+            {
+                Debug.LogWarning("dialogCharacterImage is not assigned in the Inspector.");
+            }
+        }
+
     }
 }

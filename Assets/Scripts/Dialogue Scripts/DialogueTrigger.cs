@@ -15,22 +15,35 @@ public class DialogueTrigger : MonoBehaviour
     [SerializeField] private UnityEvent events2;
 
     [SerializeField] private bool useAltDialogue = false;
+    [SerializeField] private bool useFinalDialogue = false;
 
     public void FirstInteraction()
     {
         if (useAltDialogue)
         {
             dialogBehaviour.StartDialog(altDialogue);
+            BindCommonFunctions();
+        }
+        else if (useFinalDialogue)
+        {
+            dialogBehaviour.StartDialog(finalDialogue);
+            BindCommonFunctions();
         }
         else
         {
             dialogBehaviour.StartDialog(initialDialogue);
+            BindCommonFunctions();
         }
     }
 
-    public void ToggleDialogue(bool useAlt)
+    public void ToggleAltDialogue(bool useAlt)
     {
         useAltDialogue = useAlt;
+    }
+
+    public void ToggleFinalDialogue(bool useFinal)
+    {
+        useFinalDialogue = useFinal;
     }
 
     public void BindCommonFunctions()

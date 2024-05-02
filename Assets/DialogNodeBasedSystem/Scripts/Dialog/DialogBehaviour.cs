@@ -8,6 +8,9 @@ namespace cherrydev
 {
     public class DialogBehaviour : MonoBehaviour
     {
+
+        [SerializeField] private GameObject triggerManager;
+
         [SerializeField] private float dialogCharDelay;
         [SerializeField] private List<KeyCode> nextSentenceKeyCodes;
         [SerializeField] private bool isCanSkippingText = true;
@@ -23,6 +26,7 @@ namespace cherrydev
 
         private bool isDialogStarted;
         private bool isCurrentSentenceSkipped;
+
 
         public bool IsCanSkippingText
         {
@@ -97,6 +101,12 @@ namespace cherrydev
                 Debug.LogWarning("Dialog Graph's node list is empty");
                 return;
             }
+
+            if (triggerManager != null)
+            {
+                triggerManager.SetActive(false);
+            }
+
 
             onDialogStarted?.Invoke();
 
@@ -301,6 +311,12 @@ namespace cherrydev
                     isDialogStarted = false;
 
                     onDialogFinished?.Invoke();
+
+                    if (triggerManager != null)
+                    {
+                        triggerManager.SetActive(true);
+                    }
+
                 }
             }
         }
