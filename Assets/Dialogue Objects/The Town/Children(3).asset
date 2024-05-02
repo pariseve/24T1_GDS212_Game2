@@ -16,8 +16,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 876
-    y: 344
+    x: 668
+    y: 370
     width: 190
     height: 135
   isDragging: 0
@@ -47,8 +47,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 675
-    y: 341
+    x: 467
+    y: 367
     width: 190
     height: 135
   isDragging: 0
@@ -98,8 +98,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1079
-    y: 345
+    x: 871
+    y: 370
     width: 190
     height: 155
   isDragging: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
   parentNode: {fileID: -5959914045717521196}
   childNode: {fileID: 0}
   isExternalFunc: 1
-  externalFunctionName: function
+  externalFunctionName: ExitScene
 --- !u!114 &8708190029835636642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,8 +129,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 272
-    y: 337
+    x: 64
+    y: 363
     width: 190
     height: 135
   isDragging: 0
@@ -159,8 +159,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 474
-    y: 340
+    x: 266
+    y: 366
     width: 190
     height: 135
   isDragging: 0

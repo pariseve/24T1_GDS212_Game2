@@ -28,6 +28,7 @@ public class TownScript : MonoBehaviour
     private bool hasMetChildren;
 
     private bool hasBonnieLeft;
+    private bool hasSweets;
 
     private bool hasOpenedAlley;
 
@@ -41,7 +42,13 @@ public class TownScript : MonoBehaviour
         }
 
         hasMetChildren = prefsManager.HasMetChildren();
-        if (hasMetChildren)
+        hasSweets = prefsManager.HasGotSweets();
+
+        if(hasSweets && hasMetChildren)
+        {
+            childrenDialogueTrigger.ToggleFinalDialogue(true);
+        }
+        else if (hasMetChildren && !hasSweets)
         {
             childrenDialogueTrigger.ToggleAltDialogue(true);
         }
@@ -65,14 +72,15 @@ public class TownScript : MonoBehaviour
         }
     }
 
-
-
+    //ensures that the intial dialogue introducing bonnie does not play twice, switches to alt dialogue graph
     public void BonnieIntialComplete()
     {
+        Debug.Log("Bonnie's intial dialogue is complete");
         prefsManager.SetHasMetBonnie(true);
         bonnieDialogueTrigger.ToggleAltDialogue(true);
     }
 
+    //triggers the final dialogue graph with bonnie
     public void BonnieFinalInteraction()
     {
         Debug.Log("Bonnie can now sell sweets");
@@ -81,18 +89,30 @@ public class TownScript : MonoBehaviour
 
     }
 
+    //ensures that the intial dialogue introducing the children NPCs does not play twice, switches to alt dialogue graph
     public void ChildrenInitialComplete()
     {
+        Debug.Log("Initial dialogue with children complete");
         prefsManager.SetHasMetChildren(true);
         childrenDialogueTrigger.ToggleAltDialogue(true);
     }
 
+    //triggers the final dialogue graph with the children NPCs
     public void ChildrenFinalInteraction()
     {
-        childrenDialogueTrigger.ToggleAltDialogue(false);
-        childrenDialogueTrigger.ToggleFinalDialogue(true);
+        if (hasMetChildren)
+        {
+            Debug.Log("Final dialogue with children available");
+            childrenDialogueTrigger.ToggleAltDialogue(false);
+            childrenDialogueTrigger.ToggleFinalDialogue(true);
+        }
+        else
+        {
+            Debug.Log("Player must talk to children first");
+        }
     }
 
+    //updates the stall sprite and triggers the final dialogue graph with bonnie
     public void StallSoldOut()
     {
         Image imageComponent = stallImage.GetComponent<Image>();
@@ -103,15 +123,17 @@ public class TownScript : MonoBehaviour
         BonnieFinalInteraction();
     }
 
+    //activates the trigger to the church scene and removes the stall image and trigger
     public void ChurchTriggerEnabled()
     {
         stallImage.gameObject.SetActive(false);
-        bonnieImage.gameObject.SetActive(false);
-        bonnieTrigger.gameObject.SetActive(false);
+        //bonnieImage.gameObject.SetActive(false);
+        //bonnieTrigger.gameObject.SetActive(false);
 
         churchTrigger.gameObject.SetActive(true);
     }
 
+    //activates the trigger to the alleyway scene and removes the children NPC image and trigger
     public void AlleyTriggerEnabled()
     {
         Debug.Log("Alley triggered");
@@ -119,15 +141,18 @@ public class TownScript : MonoBehaviour
         childrenTrigger.gameObject.SetActive(false);
         alleyTrigger.gameObject.SetActive(true);
 
+        prefsManager.SetHasGotSweets(false);
         prefsManager.SetOpenedAlleyEntry(true);
     }
 
+    //the player now possesses 'sweets' and unlocks the final dialogue graph with the children NPCs
     public void GetSweets()
     {
         prefsManager.SetHasGotSweets(true);
         ChildrenFinalInteraction();
     }
 
+    //bonnie's sprite and trigger are set to inactive (she 'leaves' the scene)
     public void BonnieLeaves()
     {
         prefsManager.SetHasBonnieLeft(true);

@@ -64,7 +64,7 @@ public class InputHandler : MonoBehaviour
         var rayHit = Physics2D.GetRayIntersection(mainCamera.ScreenPointToRay(Mouse.current.position.ReadValue()));
         if (!rayHit.collider) return;
 
-        Debug.Log(rayHit.collider.gameObject.name);
+        //Debug.Log(rayHit.collider.gameObject.name);
         if (rayHit.collider.GetComponent<SceneManagement>())
         {
             rayHit.collider.GetComponent<SceneManagement>().GoToScene();

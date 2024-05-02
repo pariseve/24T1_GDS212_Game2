@@ -61,6 +61,7 @@ public class DialogueTrigger : MonoBehaviour
         dialogBehaviour.BindExternalFunction("ExitScene", Function3);
     }
 
+    //this function will be used primarily to switch to alt dialogue
     public void Function()
     {
         events.Invoke();

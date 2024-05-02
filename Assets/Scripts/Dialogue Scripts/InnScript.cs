@@ -48,23 +48,27 @@ public class InnScript : MonoBehaviour
         }
     }
 
+    //ensures that the intial dialogue introducing eunice does not play twice, switches to alt dialogue graph
     public void EuniceInitialComplete()
     {
         prefsManager.SetHasMetEunice(true);
         euniceDialogueTrigger.ToggleAltDialogue(true);
     }
 
+    //uses playerprefs to update the state of stall component in the townscene
     public void TriggerStallSoldOut()
     {
         PlayerPrefs.SetInt("StallSoldOut", 1);
     }
 
+    //ensures that the intial dialogue introducing the drunk NPCs does not play twice, switches to alt dialogue graph
     public void DrunkMenInitialComplete()
     {
         prefsManager.SetHasMetDrunkMen(true);
         drunkMenDialogueTrigger.ToggleAltDialogue(true);
     }
 
+    //removes eunice image and trigger and adds irving image and trigger
     public void EuniceAndIrvingSwitch()
     {
         irvingImage.gameObject.SetActive(true);
