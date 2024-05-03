@@ -16,8 +16,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 668
-    y: 370
+    x: 400.66656
+    y: 206.00002
     width: 190
     height: 135
   isDragging: 0
@@ -28,9 +28,39 @@ MonoBehaviour:
       them out between themselves.
     characterSprite: {fileID: 0}
   parentNode: {fileID: -1653501883530858077}
-  childNode: {fileID: 3410097576743696259}
+  childNode: {fileID: -4603770946779929320}
   isExternalFunc: 0
   externalFunctionName: 
+--- !u!114 &-4603770946779929320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 620.6665
+    y: 191.33336
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: 
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -5959914045717521196}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: function
 --- !u!114 &-1653501883530858077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47,8 +77,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 467
-    y: 367
+    x: 199.66656
+    y: 203.00002
     width: 190
     height: 135
   isDragging: 0
@@ -79,40 +109,9 @@ MonoBehaviour:
   - {fileID: 8791099541698851994}
   - {fileID: -1653501883530858077}
   - {fileID: -5959914045717521196}
-  - {fileID: 3410097576743696259}
+  - {fileID: -4603770946779929320}
   nodeToDrawLineFrom: {fileID: 0}
   linePosition: {x: 0, y: 0}
---- !u!114 &3410097576743696259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 871
-    y: 370
-    width: 190
-    height: 155
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: 
-    text: The three children thank you in unison, running off to enjoy the treats
-      together.
-    characterSprite: {fileID: 0}
-  parentNode: {fileID: -5959914045717521196}
-  childNode: {fileID: 0}
-  isExternalFunc: 1
-  externalFunctionName: ExitScene
 --- !u!114 &8708190029835636642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,8 +128,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 64
-    y: 363
+    x: -203.33337
+    y: 199.00008
     width: 190
     height: 135
   isDragging: 0
@@ -159,8 +158,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 266
-    y: 366
+    x: -1.3334045
+    y: 202.00002
     width: 190
     height: 135
   isDragging: 0

@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class AlleyScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void TriggerChurchEntry()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        PlayerPrefs.SetInt("ChurchOpen", 1);
     }
 }

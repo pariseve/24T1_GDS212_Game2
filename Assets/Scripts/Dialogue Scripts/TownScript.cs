@@ -12,6 +12,7 @@ public class TownScript : MonoBehaviour
 
     private PlayerPrefsManager prefsManager;
 
+    public GameObject stallTrigger;
     public GameObject stallImage;
     public Sprite emptyStall;
 
@@ -34,6 +35,7 @@ public class TownScript : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log("Start of town script");
         prefsManager = PlayerPrefsManager.Instance;
         hasMetBonnie = prefsManager.HasMetBonnie();
         if (hasMetBonnie)
@@ -48,12 +50,13 @@ public class TownScript : MonoBehaviour
         {
             childrenDialogueTrigger.ToggleFinalDialogue(true);
         }
-        else if (hasMetChildren && !hasSweets)
+        else if (hasMetChildren)
         {
             childrenDialogueTrigger.ToggleAltDialogue(true);
         }
 
         hasOpenedAlley = prefsManager.HasOpenedAlleyEntry();
+        Debug.Log(hasOpenedAlley);
         if (hasOpenedAlley)
         {
             AlleyTriggerEnabled();
@@ -65,12 +68,35 @@ public class TownScript : MonoBehaviour
             //PlayerPrefs.SetInt("StallSoldOut", 0);
         }
 
+        if(PlayerPrefs.GetInt("ChurchOpen", 0) == 1)
+        {
+            ChurchTriggerEnabled();
+        }
+
+        //if(PlayerPrefs.GetInt("AlleyOpen", 0) == 1)
+        //{
+        //    AlleyTriggerEnabled();
+        //}
+
         hasBonnieLeft = prefsManager.HasBonnieLeft();
         if (hasBonnieLeft)
         {
             BonnieLeaves();
         }
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Keypad1))
+        {
+            ChildrenInitialComplete();
+        }
+        if (Input.GetKeyDown(KeyCode.Keypad2))
+        {
+            AlleyTriggerEnabled();
+        }
+    }
+
 
     //ensures that the intial dialogue introducing bonnie does not play twice, switches to alt dialogue graph
     public void BonnieIntialComplete()
@@ -127,12 +153,18 @@ public class TownScript : MonoBehaviour
     public void ChurchTriggerEnabled()
     {
         stallImage.gameObject.SetActive(false);
+        stallTrigger.gameObject.SetActive(false);
+        
         //bonnieImage.gameObject.SetActive(false);
         //bonnieTrigger.gameObject.SetActive(false);
 
         churchTrigger.gameObject.SetActive(true);
     }
 
+    //public void OpenAlleyway()
+    //{
+    //    PlayerPrefs.SetInt("AlleyOpen", 1);
+    //}
     //activates the trigger to the alleyway scene and removes the children NPC image and trigger
     public void AlleyTriggerEnabled()
     {
@@ -141,7 +173,7 @@ public class TownScript : MonoBehaviour
         childrenTrigger.gameObject.SetActive(false);
         alleyTrigger.gameObject.SetActive(true);
 
-        prefsManager.SetHasGotSweets(false);
+        //prefsManager.SetHasGotSweets(false);
         prefsManager.SetOpenedAlleyEntry(true);
     }
 

@@ -73,7 +73,9 @@ public class PlayerPrefsManager : MonoBehaviour
 
     public bool HasOpenedAlleyEntry()
     {
-        return PlayerPrefs.GetInt("HasOpenedAlley", 0) == 1;
+        bool temp;
+        temp = PlayerPrefs.GetInt("HasOpenedAlley", 0) == 1;
+        return temp;
     }
 
     public void SetOpenedChurchEntry(bool hasOpened)

@@ -68,6 +68,7 @@ public class DialogueTrigger : MonoBehaviour
     }
     public void Function2()
     {
+        Debug.Log(gameObject.name);
         events2.Invoke();
     }
 

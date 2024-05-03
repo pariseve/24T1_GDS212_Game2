@@ -234,9 +234,6 @@ MonoBehaviour:
         m_CallState: 2
   events2:
     m_PersistentCalls:
-      m_Calls: []
-  events3:
-    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1312651657}
         m_TargetAssemblyTypeName: TownScript, Assembly-CSharp
@@ -250,6 +247,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  events3:
+    m_PersistentCalls:
+      m_Calls: []
   useAltDialogue: 0
   useFinalDialogue: 0
 --- !u!1 &198648613
@@ -1604,6 +1604,7 @@ MonoBehaviour:
   childrenDialogueTrigger: {fileID: 94849286}
   stallDialogueTrigger: {fileID: 1890818543}
   theTailorTrigger: {fileID: 326395293}
+  stallTrigger: {fileID: 1890818540}
   stallImage: {fileID: 980394157}
   emptyStall: {fileID: 21300000, guid: ce57a7c119ac4a4428b276c80632a041, type: 3}
   bonnieTrigger: {fileID: 421421583}
